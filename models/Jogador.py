@@ -1,5 +1,5 @@
 class Jogador:
-    def __init__(self,id:int,nome:str,numero:int):
+    def __init__(self,id:int,nome:str,numero:int, id_time:int = int):
         self.id = id
         self.nome = nome
         self.numero = numero

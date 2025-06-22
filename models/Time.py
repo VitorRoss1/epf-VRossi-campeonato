@@ -1,10 +1,18 @@
 class Time:
-    def __init__(self, id: int, nome: str, sigla: str):
+    def __init__(self, id: int, nome: str, sigla: str,img_path: str):
         self.id = id
         self.nome = nome
         self.sigla = sigla
         self._jogadores = []
-        self._pontos = 0  # encapsulamentos
+        self.img_path = img_path  # encapsulamentos
+        self.stats ={
+            "vitorias": 0,
+            "derrotas": 0,
+            "empates": 0,
+            "gols_pro": 0,
+            "gols_contra": 0,
+            "Pontos": 0
+        }
 
     def add_jogador(self, jogador):
         if len(self._jogadores) < 11:
@@ -12,16 +20,12 @@ class Time:
             return True
         return False
 
-    def add_pontos(self, pontos):
-        if pontos > 0:
-            self._pontos += pontos
+    def Saldo_Gols(self):
+        return self.stats["gols_pro"] - self.stats["gols_contra"]
 
-    # getters
+    # getter
     @property
     def getJogadores(self):
         return self._jogadores.copy()
 
-    @property
-    def getPontos(self):
-        return self._pontos
     
