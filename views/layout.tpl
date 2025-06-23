@@ -1,22 +1,44 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema Bottle - {{title or 'Sistema'}}</title>
-    <link rel="stylesheet" href="/static/css/style.css" />
-</head>
-<body>
+% rebase('layout', title=f'Tabela - Rodada {rodada}')
 
-    <div class="container">
-        {{!base}}  <!-- O conteúdo das páginas filhas virá aqui -->
+<div class="card">
+    <div class="card-header">
+        <h2>Tabela de Classificação - Rodada {{rodada}}</h2>
     </div>
-
-    <footer>
-        <p>&copy; 2025, Meu Projeto. Todos os direitos reservados.</p>
-    </footer>
-
-    <!-- Scripts JS no final do body -->
-    <script src="/static/js/main.js"></script>
-</body>
-</html>
+    <div class="card-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Pos</th>
+                    <th>Time</th>
+                    <th>P</th>
+                    <th>V</th>
+                    <th>E</th>
+                    <th>D</th>
+                    <th>GP</th>
+                    <th>GC</th>
+                    <th>SG</th>
+                </tr>
+            </thead>
+            <tbody>
+                % for i, time in enumerate(tabela):
+                <tr>
+                    <td>{{i+1}}</td>
+                    <td>
+                        <a href="/time/{{time.id}}">
+                            <img src="/static/images/{{time.img_path}}" alt="{{time.nome}}" width="30">
+                            {{time.sigla}}
+                        </a>
+                    </td>
+                    <td>{{time.stats["Pontos"]}}</td>
+                    <td>{{time.stats["vitorias"]}}</td>
+                    <td>{{time.stats["empates"]}}</td>
+                    <td>{{time.stats["derrotas"]}}</td>
+                    <td>{{time.stats["gols_pro"]}}</td>
+                    <td>{{time.stats["gols_contra"]}}</td>
+                    <td>{{time.Saldo_Gols()}}</td>
+                </tr>
+                % end
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -317,4 +317,4 @@ activity_controller = ActivityController(activity_routes)</code></pre>
 </div>
 
 </body>
-</html>
+</html>¡

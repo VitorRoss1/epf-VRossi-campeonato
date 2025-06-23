@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "nome": "Gabriel Barbosa",
+        "numero": 9,
+        "id_time": 1,
+        "posicao": "Atacante"
+    },
+    {
+        "id": 2,
+        "nome": "Weverton",
+        "numero": 21,
+        "id_time": 2,
+        "posicao": "Goleiro"
+    }
+]

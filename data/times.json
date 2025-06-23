@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "nome": "Flamengo",
+        "sigla": "FLA",
+        "img_path": "fla.png"
+    },
+    {
+        "id": 2,
+        "nome": "Palmeiras",
+        "sigla": "PAL",
+        "img_path": "pal.png"
+    }
+]
