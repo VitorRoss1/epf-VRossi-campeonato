@@ -3,12 +3,28 @@
         "id": 1,
         "nome": "Flamengo",
         "sigla": "FLA",
-        "img_path": "fla.png"
+        "img_path": "fla.png",
+        "stats": {
+            "vitorias": 0,
+            "derrotas": 0,
+            "empates": 0,
+            "gols_pro": 0,
+            "gols_contra": 0,
+            "Pontos": 0
+        }
     },
     {
         "id": 2,
         "nome": "Palmeiras",
         "sigla": "PAL",
-        "img_path": "pal.png"
+        "img_path": "pal.png",
+        "stats": {
+            "vitorias": 0,
+            "derrotas": 0,
+            "empates": 0,
+            "gols_pro": 0,
+            "gols_contra": 0,
+            "Pontos": 0
+        }
     }
 ]
