@@ -1,4 +1,4 @@
-from bottle import request
+from bottle import template, request 
 from .base_controller import BaseController
 from models.time import Time
 from models.partida import Partida
@@ -10,9 +10,9 @@ class CampeonatoController(BaseController):
         self.setup_routes()
 
     def setup_routes(self):
-        self.app.route('/rodada/<rodada_numero>', callback=self.display_rodada)
-        self.app.route('/enviar-placares', method='POST', callback=self.enviar_placares)
-        self.app.route('/time/<time_id>', callback=self.display_time)
+        self.app.route('/campeonato/rodada/<rodada_numero>', callback=self.display_rodada)
+        self.app.route('/campeonato/enviar-placares', method='POST', callback=self.enviar_placares)
+        self.app.route('/campeonato/time/<time_id>', callback=self.display_time)
 
     def display_rodada(self, rodada_numero):
         partidas = load_partidas_darodada(int(rodada_numero))
@@ -35,7 +35,3 @@ class CampeonatoController(BaseController):
     def display_time(self, time_id):
         time = next(t for t in load_times() if t.id == int(time_id))
         return self.render('elenco_time', time=time)
-
-# Crie as rotas do campeonato
-campeonato_routes = Bottle()
-CampeonatoController(campeonato_routes)
