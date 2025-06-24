@@ -4,5 +4,11 @@
         "rodada": 1,
         "casa_id": 1,
         "fora_id": 2
+    },
+    {
+        "id": 2,
+        "rodada": 2,
+        "casa_id": 2,
+        "fora_id": 1
     }
 ]

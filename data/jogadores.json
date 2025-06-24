@@ -8,9 +8,86 @@
     },
     {
         "id": 2,
+        "nome": "Arrascaeta",
+        "numero": 14,
+        "id_time": 1,
+        "posicao": "Meia"
+    },
+    {
+        "id": 3,
+        "nome": "Everton Ribeiro",
+        "numero": 7,
+        "id_time": 1,
+        "posicao": "Meia"
+    },
+    {
+        "id": 4,
+        "nome": "Gerson",
+        "numero": 8,
+        "id_time": 1,
+        "posicao": "Volante"
+    },
+    {
+        "id": 5,
+        "nome": "Filipe Luís",
+        "numero": 6,
+        "id_time": 1,
+        "posicao": "Lateral"
+    },
+    {
+        "id": 6,
+        "nome": "David Luiz",
+        "numero": 23,
+        "id_time": 1,
+        "posicao": "Zagueiro"
+    },
+    {
+        "id": 7,
+        "nome": "Rodrigo Caio",
+        "numero": 3,
+        "id_time": 1,
+        "posicao": "Zagueiro"
+    },
+    {
+        "id": 8,
+        "nome": "Isla",
+        "numero": 22,
+        "id_time": 1,
+        "posicao": "Lateral"
+    },
+    {
+        "id": 9,
+        "nome": "Diego Alves",
+        "numero": 1,
+        "id_time": 1,
+        "posicao": "Goleiro"
+    },
+    {
+        "id": 10,
+        "nome": "Bruno Henrique",
+        "numero": 27,
+        "id_time": 1,
+        "posicao": "Atacante"
+    },
+    {
+        "id": 11,
+        "nome": "Pedro",
+        "numero": 21,
+        "id_time": 1,
+        "posicao": "Atacante"
+    },
+    {
+        "id": 12,
         "nome": "Weverton",
         "numero": 21,
         "id_time": 2,
         "posicao": "Goleiro"
+    },
+    {
+        "id": 13,
+        "nome": "Gustavo Gómez",
+        "numero": 15,
+        "id_time": 2,
+        "posicao": "Zagueiro"
     }
 ]
