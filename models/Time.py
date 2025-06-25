@@ -1,11 +1,11 @@
 class Time:
-    def __init__(self, id: int, nome: str, sigla: str,img_path: str):
+    def __init__(self, id: int, nome: str, sigla: str,img_path: str,stats: dict = None):
         self.id = id
         self.nome = nome
         self.sigla = sigla
-        self._jogadores = []
-        self.img_path = img_path  # encapsulamentos
-        self.stats ={
+        self._jogadores = [] #encapsulamentos
+        self.img_path = img_path  
+        self.stats = stats or {
             "vitorias": 0,
             "derrotas": 0,
             "empates": 0,

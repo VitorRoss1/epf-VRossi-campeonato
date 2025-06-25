@@ -1,10 +1,10 @@
 from models.time import Time
 
 class Partida:
-    def __init__(self, rodada: int, casa: Time, fora: Time):  # Use aspas para forward reference
+    def __init__(self,id:int, rodada: int, casa_id:int, fora_id:int):  # Use aspas para forward reference
         self.rodada = rodada
-        self.casa = casa
-        self.fora = fora
+        self.casa_id = casa_id
+        self.fora_id = fora_id
         self.casa_placar = None
         self.fora_placar = None
 
