@@ -1,10 +1,11 @@
+# models/time.py
 class Time:
-    def __init__(self, id: int, nome: str, sigla: str,img_path: str,stats: dict = None):
+    def __init__(self, id: int, nome: str, sigla: str, img_path: str, stats: dict = None):
         self.id = id
         self.nome = nome
         self.sigla = sigla
-        self._jogadores = [] #encapsulamentos
-        self.img_path = img_path  
+        self.img_path = img_path
+        self._jogadores = []  # Encapsulamento
         self.stats = stats or {
             "vitorias": 0,
             "derrotas": 0,
@@ -23,7 +24,6 @@ class Time:
     def Saldo_Gols(self):
         return self.stats["gols_pro"] - self.stats["gols_contra"]
 
-    # getter
     @property
     def getJogadores(self):
         return self._jogadores.copy()
