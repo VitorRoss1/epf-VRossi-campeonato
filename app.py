@@ -1,4 +1,4 @@
-from bottle import Bottle
+from bottle import Bottle, redirect
 from config import Config
 from controllers import campeonato_controller, user_controller
 

@@ -1,3 +1,8 @@
+import json
+from models.time import Time  # ajuste o caminho conforme necessário
+from models.jogador import JogadorGoleiro  
+from models.jogador import JogadorLinha 
+
 def _load_times(self):
     try:
         with open('data/times.json') as f:

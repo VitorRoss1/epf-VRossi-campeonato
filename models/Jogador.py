@@ -5,7 +5,7 @@ class Jogador:
         self.numero = numero
         self.id_time = id_time
 
-class JogadorLinha(Jogador):
+class JogadorLinha(Jogador):  #herança de Jogador
     def __init__(self, id, nome, numero, id_time, posicao):
         super().__init__(id, nome, numero, id_time)
         self.posicao = posicao
