@@ -1,49 +1,44 @@
-%rebase('layout', title='Usuários')
+% rebase('layout', title='Gerenciamento de Usuários')
 
-<section class="users-section">
-    <div class="section-header">
-        <h1 class="section-title"><i class="fas fa-users"></i> Gestão de Usuários</h1>
-        <a href="/users/add" class="btn btn-primary">
+<div class="card mt-4">
+    <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+        <h3><i class="fas fa-users"></i> Usuários do Sistema</h3>
+        <a href="/users/add" class="btn btn-light">
             <i class="fas fa-plus"></i> Novo Usuário
         </a>
     </div>
-
-    <div class="table-container">
-        <table class="styled-table">
-            
+    <div class="card-body">
+        <table class="table table-striped table-hover">
             <thead>
                 <tr>
                     <th>ID</th>
                     <th>Nome</th>
                     <th>Email</th>
-                    <th>Data Nasc.</th>
                     <th>Ações</th>
                 </tr>
             </thead>
-
             <tbody>
-                % for u in users:
+                % for user in users:
                 <tr>
-                    <td>{{u.id}}</td>
-                    <td>{{u.name}}</td>
-                    <td><a href="mailto:{{u.email}}">{{u.email}}</a></td>
-                    <td>{{u.birthdate}}</td>
-                    
-                    <td class="actions">
-                        <a href="/users/edit/{{u.id}}" class="btn btn-sm btn-edit">
-                            <i class="fas fa-edit"></i> Editar
-                        </a>
-
-                        <form action="/users/delete/{{u.id}}" method="post" 
-                              onsubmit="return confirm('Tem certeza?')">
-                            <button type="submit" class="btn btn-sm btn-danger">
-                                <i class="fas fa-trash-alt"></i> Excluir
-                            </button>
-                        </form>
+                    <td>{{user.id}}</td>
+                    <td>{{user.name}}</td>
+                    <td>{{user.email}}</td>
+                    <td>
+                        <div class="btn-group">
+                            <a href="/users/edit/{{user.id}}" class="btn btn-sm btn-warning">
+                                <i class="fas fa-edit"></i>
+                            </a>
+                            <form action="/users/delete/{{user.id}}" method="post" 
+                                  onsubmit="return confirm('Tem certeza?')" style="display:inline">
+                                <button type="submit" class="btn btn-sm btn-danger">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </form>
+                        </div>
                     </td>
                 </tr>
                 % end
             </tbody>
         </table>
     </div>
-</section>
+</div>

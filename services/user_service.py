@@ -1,42 +1,73 @@
-from bottle import request
-from models.user import UserModel, User
+from models.user import UserModel
+from bottle import request, response
+import json
 
 class UserService:
     def __init__(self):
         self.user_model = UserModel()
-
-
-    def get_all(self):
-        users = self.user_model.get_all()
-        return users
-
-
-    def save(self):
-        last_id = max([u.id for u in self.user_model.get_all()], default=0)
-        new_id = last_id + 1
-        name = request.forms.get('name')
-        email = request.forms.get('email')
-        birthdate = request.forms.get('birthdate')
-
-        user = User(id=new_id, name=name, email=email, birthdate=birthdate)
-        self.user_model.add_user(user)
-
-
-    def get_by_id(self, user_id):
+    
+    # Método de autenticação
+    def authenticate(self, email, password):
+        user = self.user_model.get_by_email(email)
+        if user and user['password'] == password:  # Na prática, usar hash!
+            return user
+        return None
+    
+    # Decorator para proteção de rotas
+    def login_required(self, f):
+        def wrapper(*args, **kwargs):
+            if not self.get_current_user():
+                response.status = 401
+                return {'error': 'Acesso não autorizado'}
+            return f(*args, **kwargs)
+        return wrapper
+    
+    # Métodos básicos de CRUD
+    def get_all_users(self):
+        return self.user_model.get_all()
+    
+    def get_user_by_id(self, user_id):
         return self.user_model.get_by_id(user_id)
-
-
-    def edit_user(self, user):
-        name = request.forms.get('name')
-        email = request.forms.get('email')
-        birthdate = request.forms.get('birthdate')
-
-        user.name = name
-        user.email = email
-        user.birthdate = birthdate
-
-        self.user_model.update_user(user)
-
-
+    
+    def get_current_user(self):
+        user_id = request.get_cookie('user_id')
+        if user_id:
+            return self.get_user_by_id(int(user_id))
+        return None
+    
+    def create_user(self, name, email, password):
+        if self.user_model.get_by_email(email):
+            raise ValueError("Email já cadastrado")
+        
+        new_id = max([u['id'] for u in self.user_model.get_all()], default=0) + 1
+        user = {
+            'id': new_id,
+            'name': name,
+            'email': email,
+            'password': password  # IMPORTANTE: Armazenar hash na prática
+        }
+        self.user_model.add_user(user)
+        return user
+    
+    def update_user(self, user_id, name=None, email=None, password=None):
+        user = self.get_user_by_id(user_id)
+        if not user:
+            return False
+        
+        if name:
+            user['name'] = name
+        if email:
+            user['email'] = email
+        if password:
+            user['password'] = password
+        
+        self.user_model._save()
+        return True
+    
     def delete_user(self, user_id):
-        self.user_model.delete_user(user_id)
+        user = self.get_user_by_id(user_id)
+        if user:
+            self.user_model.users.remove(user)
+            self.user_model._save()
+            return True
+        return False

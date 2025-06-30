@@ -1,5 +1,5 @@
-from bottle import Bottle
-from controllers.user_controller import user_routes
+# controllers/__init__.py
+from .user_controller import user_routes
+from .campeonato_controller import create_campeonato_routes
 
-def init_controllers(app: Bottle):
-    app.merge(user_routes)
+__all__ = ['user_routes', 'create_campeonato_routes']
