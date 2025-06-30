@@ -6,23 +6,20 @@ class UserService:
     def __init__(self):
         self.user_model = UserModel()
     
-    # Método de autenticação
     def authenticate(self, email, password):
         user = self.user_model.get_by_email(email)
-        if user and user['password'] == password:  # Na prática, usar hash!
+        if user and user['password'] == password:
             return user
         return None
     
-    # Decorator para proteção de rotas
     def login_required(self, f):
         def wrapper(*args, **kwargs):
             if not self.get_current_user():
                 response.status = 401
-                return {'error': 'Acesso não autorizado'}
+                return "Acesso não autorizado"
             return f(*args, **kwargs)
         return wrapper
     
-    # Métodos básicos de CRUD
     def get_all_users(self):
         return self.user_model.get_all()
     
@@ -44,7 +41,7 @@ class UserService:
             'id': new_id,
             'name': name,
             'email': email,
-            'password': password  # IMPORTANTE: Armazenar hash na prática
+            'password': password
         }
         self.user_model.add_user(user)
         return user

@@ -1,4 +1,3 @@
-# services/campeonato_service.py
 from models.time import Time
 from models.partida import Partida
 import json
@@ -18,14 +17,7 @@ class CampeonatoService:
                         nome=data['nome'],
                         sigla=data['sigla'],
                         img_path=data['img_path'],
-                        stats=data.get('stats', {
-                            "vitorias": 0,
-                            "derrotas": 0,
-                            "empates": 0,
-                            "gols_pro": 0,
-                            "gols_contra": 0,
-                            "Pontos": 0
-                        })
+                        stats=data.get('stats')
                     ) 
                     for data in times_data
                 ]

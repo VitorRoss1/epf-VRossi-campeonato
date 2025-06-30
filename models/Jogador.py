@@ -1,18 +1,17 @@
-# models/jogador.py
 class Jogador:
-    def __init__(self, id: int, nome: str, numero: int, id_time: int):
+    def __init__(self, id, nome, numero, id_time):
         self.id = id
         self.nome = nome
         self.numero = numero
         self.id_time = id_time
 
 class JogadorLinha(Jogador):
-    def __init__(self, id: int, nome: str, numero: int, id_time: int, posicao: str):
+    def __init__(self, id, nome, numero, id_time, posicao):
         super().__init__(id, nome, numero, id_time)
-        self.posicao = posicao  # Atacante, Meio-campista, Zagueiro, etc.
+        self.posicao = posicao
 
 class JogadorGoleiro(Jogador):
-    def __init__(self, id: int, nome: str, numero: int, id_time: int):
+    def __init__(self, id, nome, numero, id_time):
         super().__init__(id, nome, numero, id_time)
         self.posicao = "Goleiro"
 

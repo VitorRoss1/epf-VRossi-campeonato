@@ -1,11 +1,9 @@
-# models/time.py
 class Time:
-    def __init__(self, id: int, nome: str, sigla: str, img_path: str, stats: dict = None):
+    def __init__(self, id, nome, sigla, img_path, stats=None):
         self.id = id
         self.nome = nome
         self.sigla = sigla
         self.img_path = img_path
-        self._jogadores = []  # Encapsulamento
         self.stats = stats or {
             "vitorias": 0,
             "derrotas": 0,
@@ -14,6 +12,7 @@ class Time:
             "gols_contra": 0,
             "Pontos": 0
         }
+        self._jogadores = []
 
     def add_jogador(self, jogador):
         if len(self._jogadores) < 11:
@@ -26,6 +25,5 @@ class Time:
 
     @property
     def getJogadores(self):
-        return self._jogadores.copy()
-
+        return self._jogadores
     
