@@ -12,16 +12,13 @@ class Time:
             "gols_contra": 0,
             "Pontos": 0
         }
-        self._jogadores = []
+        self._jogadores = []  #jogadores
 
     def add_jogador(self, jogador):
         if len(self._jogadores) < 11:
             self._jogadores.append(jogador)
             return True
         return False
-
-    def Saldo_Gols(self):
-        return self.stats["gols_pro"] - self.stats["gols_contra"]
 
     @property
     def getJogadores(self):

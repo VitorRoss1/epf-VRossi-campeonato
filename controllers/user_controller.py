@@ -86,7 +86,7 @@ def edit_user(user_id):
         }
     }
 
-@user_app.route('/delete/<user_id:int>', method='POST'])
+@user_app.route('/add', method=['GET', 'POST'])
 @user_service.login_required
 def delete_user(user_id):
     if user_service.delete_user(user_id):
