@@ -1,1 +1,562 @@
-[   ]
+[
+  {
+    "id": 1,
+    "nome": "Flamengo",
+    "sigla": "FLA",
+    "img_path": "fla.png",
+    "stats": {
+      "vitorias": 0,
+      "derrotas": 0,
+      "empates": 0,
+      "gols_pro": 0,
+      "gols_contra": 0,
+      "Pontos": 0
+    },
+    "jogadores": [
+      {
+        "id": 1,
+        "nome": "Luiz Araújo",
+        "numero": 7,
+        "posicao": "Atacante"
+      },
+      {
+        "id": 2,
+        "nome": "Arrascaeta",
+        "numero": 10,
+        "posicao": "Meio Campista"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Palmeiras",
+    "sigla": "PAL",
+    "img_path": "pal.png",
+    "stats": {
+      "vitorias": 0,
+      "derrotas": 0,
+      "empates": 0,
+      "gols_pro": 0,
+      "gols_contra": 0,
+      "Pontos": 0
+    },
+    "jogadores": [
+      {
+        "id": 3,
+        "nome": "Maurício",
+        "numero": 18,
+        "posicao": "Atacante"
+      },
+      {
+        "id": 4,
+        "nome": "Allan",
+        "numero": 40,
+        "posicao": "Atacante"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Atlético Mineiro",
+    "sigla": "CAM",
+    "img_path": "cam.png",
+    "stats": {
+      "vitorias": 0,
+      "derrotas": 0,
+      "empates": 0,
+      "gols_pro": 0,
+      "gols_contra": 0,
+      "Pontos": 0
+    },
+    "jogadores": [
+      {
+        "id": 5,
+        "nome": "Hulk",
+        "numero": 7,
+        "posicao": "Atacante"
+      },
+      {
+        "id": 6,
+        "nome": "Junior Santos",
+        "numero": 37,
+        "posicao": "Atacante"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "Fluminense",
+    "sigla": "FLU",
+    "img_path": "flu.png",
+    "stats": {
+      "vitorias": 0,
+      "derrotas": 0,
+      "empates": 0,
+      "gols_pro": 0,
+      "gols_contra": 0,
+      "Pontos": 0
+    },
+    "jogadores": [
+      {
+        "id": 7,
+        "nome": "Germán Cano",
+        "numero": 14,
+        "posicao": "Atacante"
+      },
+      {
+        "id": 8,
+        "nome": "John Arias",
+        "numero": 21,
+        "posicao": "Atacante"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "São Paulo",
+    "sigla": "SAO",
+    "img_path": "sao.png",
+    "stats": {
+      "vitorias": 0,
+      "derrotas": 0,
+      "empates": 0,
+      "gols_pro": 0,
+      "gols_contra": 0,
+      "Pontos": 0
+    },
+    "jogadores": [
+      {
+        "id": 9,
+        "nome": "Lucas Moura",
+        "numero": 7,
+        "posicao": "Atacante"
+      },
+      {
+        "id": 10,
+        "nome": "Jonathan Calleri",
+        "numero": 9,
+        "posicao": "Atacante"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "Botafogo",
+    "sigla": "BOT",
+    "img_path": "bot.png",
+    "stats": {
+      "vitorias": 0,
+      "derrotas": 0,
+      "empates": 0,
+      "gols_pro": 0,
+      "gols_contra": 0,
+      "Pontos": 0
+    },
+    "jogadores": [
+      {
+        "id": 11,
+        "nome": "Gregore",
+        "numero": 66,
+        "posicao": "Meio Campista"
+      },
+      {
+        "id": 12,
+        "nome": "Cuiabano",
+        "numero": 26,
+        "posicao": "Defensor"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "nome": "Grêmio",
+    "sigla": "GRE",
+    "img_path": "gre.png",
+    "stats": {
+      "vitorias": 0,
+      "derrotas": 0,
+      "empates": 0,
+      "gols_pro": 0,
+      "gols_contra": 0,
+      "Pontos": 0
+    },
+    "jogadores": [
+      {
+        "id": 13,
+        "nome": "Villa Santi",
+        "numero": 20,
+        "posicao": "Meio Campista"
+      },
+      {
+        "id": 14,
+        "nome": "Martin Braithwaite",
+        "numero": 22,
+        "posicao": "Atacante"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "nome": "Vasco da Gama",
+    "sigla": "VAS",
+    "img_path": "vas.png",
+    "stats": {
+      "vitorias": 0,
+      "derrotas": 0,
+      "empates": 0,
+      "gols_pro": 0,
+      "gols_contra": 0,
+      "Pontos": 0
+    },
+    "jogadores": [
+      {
+        "id": 15,
+        "nome": "Pablo Vegetti",
+        "numero": 99,
+        "posicao": "Atacante"
+      },
+      {
+        "id": 16,
+        "nome": "Nuno Moreira ",
+        "numero": 17,
+        "posicao": "Meio Campista"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "nome": "Bragantino",
+    "sigla": "BGT",
+    "img_path": "bgt.png",
+    "stats": {
+      "vitorias": 0,
+      "derrotas": 0,
+      "empates": 0,
+      "gols_pro": 0,
+      "gols_contra": 0,
+      "Pontos": 0
+    },
+    "jogadores": [
+      {
+        "id": 17,
+        "nome": "Eduardo Sasha",
+        "numero": 10,
+        "posicao": "Atacante"
+      },
+      {
+        "id": 18,
+        "nome": "Juninho Capixaba",
+        "numero": 29,
+        "posicao": "Defensor"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "nome": "Fortaleza",
+    "sigla": "FOR",
+    "img_path": "for.png",
+    "stats": {
+      "vitorias": 0,
+      "derrotas": 0,
+      "empates": 0,
+      "gols_pro": 0,
+      "gols_contra": 0,
+      "Pontos": 0
+    },
+    "jogadores": [
+      {
+        "id": 19,
+        "nome": "Deyverson",
+        "numero": 9,
+        "posicao": "Atacante"
+      },
+      {
+        "id": 20,
+        "nome": "David Luiz",
+        "numero": 7,
+        "posicao": "Defensor"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "nome": "Internacional",
+    "sigla": "INT",
+    "img_path": "int.png",
+    "stats": {
+      "vitorias": 0,
+      "derrotas": 0,
+      "empates": 0,
+      "gols_pro": 0,
+      "gols_contra": 0,
+      "Pontos": 0
+    },
+    "jogadores": [
+      {
+        "id": 21,
+        "nome": "Enner Valencia",
+        "numero": 13,
+        "posicao": "Atacante"
+      },
+      {
+        "id": 22,
+        "nome": "Alan Patrick",
+        "numero": 10,
+        "posicao": "Meio Campista"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "nome": "Ceará",
+    "sigla": "CEA",
+    "img_path": "cea.png",
+    "stats": {
+      "vitorias": 0,
+      "derrotas": 0,
+      "empates": 0,
+      "gols_pro": 0,
+      "gols_contra": 0,
+      "Pontos": 0
+    },
+    "jogadores": [
+      {
+        "id": 23,
+        "nome": "Pedro Raul",
+        "numero": 9,
+        "posicao": "Atacante"
+      },
+      {
+        "id": 24,
+        "nome": "Fernando Miguel.",
+        "numero": 1,
+        "posicao": "Goleiro"  
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "nome": "Corinthians",
+    "sigla": "COR",
+    "img_path": "cor.png",
+    "stats": {
+      "vitorias": 0,
+      "derrotas": 0,
+      "empates": 0,
+      "gols_pro": 0,
+      "gols_contra": 0,
+      "Pontos": 0
+    },
+    "jogadores": [
+      {
+        "id": 25,
+        "nome": "Yuri Alberto",
+        "numero": 99,
+        "posicao": "Atacante"
+      },
+      {
+        "id": 26,
+        "nome": "Garro",
+        "numero": 8,
+        "posicao": "Meio Campista"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "nome": "Cruzeiro",
+    "sigla": "CRU",
+    "img_path": "cru.png",
+    "stats": {
+      "vitorias": 0,
+      "derrotas": 0,
+      "empates": 0,
+      "gols_pro": 0,
+      "gols_contra": 0,
+      "Pontos": 0
+    },
+    "jogadores": [
+      {
+        "id": 27,
+        "nome": "Kaio Jorge",
+        "numero": 19,
+        "posicao": "Atacante"
+      },
+      {
+        "id": 28,
+        "nome": "Matheus Pereira",
+        "numero": 10,
+        "posicao": "Meio-Campista"
+      }
+    ]
+  },
+  { 
+    "id": 15,
+    "nome": "Juventude",
+    "sigla": "JUV",
+    "img_path": "juv.png",
+    "stats": {
+      "vitorias": 0,
+      "derrotas": 0,
+      "empates": 0,
+      "gols_pro": 0,
+      "gols_contra": 0,
+      "Pontos": 0
+    },
+    "jogadores": [
+      {
+        "id": 29,
+        "nome": "Jadson",
+        "numero": 10,
+        "posicao": "Meio Campista"
+      },
+      {
+        "id": 30,
+        "nome": "Gilberto",
+        "numero": 9,
+        "posicao": "Atacante"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "nome": "Bahia",
+    "sigla": "BAH",
+    "img_path": "bah.png",
+    "stats": {
+      "vitorias": 0,
+      "derrotas": 0,
+      "empates": 0,
+      "gols_pro": 0,
+      "gols_contra": 0,
+      "Pontos": 0
+    },
+    "jogadores": [
+      {
+        "id": 31,
+        "nome": "Everton Ribeiro",
+        "numero": 10,
+        "posicao": "Meio Campista"
+      },
+      {
+        "id": 32,
+        "nome": "Wilian José",
+        "numero": 10,
+        "posicao": "Atacante"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "nome": "Santos",
+    "sigla": "SAN",
+    "img_path": "san.png",
+    "stats": {
+      "vitorias": 0,
+      "derrotas": 0,
+      "empates": 0,
+      "gols_pro": 0,
+      "gols_contra": 0,
+      "Pontos": 0
+    },
+    "jogadores": [
+      {
+        "id": 33,
+        "nome": "Wiliam Arão",
+        "numero": 8,
+        "posicao": "Atacante"
+      },
+      {
+        "id": 34,
+        "nome": "Neymar Jr",
+        "numero": 10,
+        "posicao": "Meio Campista"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "nome": "Sport",
+    "sigla": "SPO",
+    "img_path": "spo.png",
+    "stats": {
+      "vitorias": 0,
+      "derrotas": 0,
+      "empates": 0,
+      "gols_pro": 0,
+      "gols_contra": 0,
+      "Pontos": 0
+    },
+    "jogadores": [
+      {
+        "id": 35,
+        "nome": "Lucas Lima",
+        "numero": 10,
+        "posicao": "Meio-Campista"
+      },
+      {
+        "id": 36,
+        "nome": "Du Queiroz",
+        "numero": 8,
+        "posicao": "Meio-Campista"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "nome": "Vitória",
+    "sigla": "VIT",
+    "img_path": "vit.png",
+    "stats": {
+      "vitorias": 0,
+      "derrotas": 0,
+      "empates": 0,
+      "gols_pro": 0,
+      "gols_contra": 0,
+      "Pontos": 0
+    },
+    "jogadores": [
+      {
+        "id": 37,
+        "nome": "Renato Kayser",
+        "numero": 9,
+        "posicao": "Atacante"
+      },
+      {
+        "id": 38,
+        "nome": "Erick",
+        "numero": 10,
+        "posicao": "Meio Campista"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "nome": "Mirassol",
+    "sigla": "MIR",
+    "img_path": "mir.png",
+    "stats": {
+      "vitorias": 0,
+      "derrotas": 0,
+      "empates": 0,
+      "gols_pro": 0,
+      "gols_contra": 0,
+      "Pontos": 0
+    },
+    "jogadores": [
+      {
+        "id": 39,
+        "nome": "Reinaldo",
+        "numero": 6,
+        "posicao": "Defensor"
+      },
+      {
+        "id": 40,
+        "nome": "Chicco",
+        "numero": 10,
+        "posicao": "Meio Campista"
+      }
+    ]
+  }
+]

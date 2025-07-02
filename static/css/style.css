@@ -1,4 +1,5 @@
 /* Reset e Estilos Globais */
+/* Variáveis de cores */
 :root {
   --primary-color: #3498db;
   --secondary-color: #2980b9;
@@ -13,6 +14,7 @@
   --brasileirao-blue: #3498DB;
 }
 
+/* Reset e Estilos Globais */
 * {
   margin: 0;
   padding: 0;
@@ -24,8 +26,8 @@ body {
   line-height: 1.6;
   color: var(--text-color);
   background-color: #f9f9f9;
-  padding: 0;
-  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
 }
 
 /* Layout */
@@ -75,6 +77,12 @@ body {
   box-shadow: var(--shadow);
   margin-bottom: 2rem;
   overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .card-header {
@@ -99,10 +107,6 @@ body {
   border-radius: 8px;
   box-shadow: var(--shadow);
   transition: transform 0.3s;
-}
-
-.partida:hover {
-  transform: translateY(-3px);
 }
 
 .time-info {
@@ -277,6 +281,27 @@ body {
   border-color: var(--brasileirao-blue);
 }
 
+/* Mensagens animadas */
+.animated-message {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 1.2em;
+  border-radius: 5px;
+  z-index: 1000;
+  animation: fadeInOut 2s ease-out;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
   .partida {
@@ -301,6 +326,14 @@ body {
   
   .elenco-container {
     grid-template-columns: 1fr;
+  }
+  
+  .navbar {
+    padding: 1rem;
+  }
+  
+  .container {
+    padding: 15px;
   }
 }
 

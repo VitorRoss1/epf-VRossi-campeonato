@@ -18,7 +18,7 @@ def _load_times(self):
                     stats=data.get('stats')
                 )
                 
-                # Carrega jogadores
+                # Carrega 2 jogadores destaque
                 for jogador_data in data.get('jogadores', []):
                     if jogador_data.get('posicao') == 'Goleiro':
                         jogador = JogadorGoleiro(
