@@ -1,9 +1,9 @@
 from bottle import Bottle, request, redirect, response
 from services.user_service import UserService
-from models.user import UserModel
+#from models.user import UserModel
 
 user_service = UserService()
-user_model = UserModel()
+
 
 # App para rotas de usuário
 user_app = Bottle()
@@ -14,7 +14,7 @@ auth_app = Bottle()
 @user_app.route('/')
 @user_service.login_required
 def list_users():
-    users = user_model.get_all()
+    users = user_service.get_all_users() 
     return {
         'template': 'user/list.tpl',
         'data': {
@@ -68,7 +68,7 @@ def edit_user(user_id):
                 request.forms.get('password')
             )
             return redirect('/users')
-        except ValueError as e:
+        except ValueError as e: # Pode não ser necessário se o update não levantar ValueErrors
             return {
                 'template': 'user/form.tpl',
                 'data': {
@@ -86,7 +86,8 @@ def edit_user(user_id):
         }
     }
 
-@user_app.route('/add', method=['GET', 'POST'])
+
+@user_app.route('/delete/<user_id:int>', method='POST') # Método deve ser POST para deleção
 @user_service.login_required
 def delete_user(user_id):
     if user_service.delete_user(user_id):
@@ -101,7 +102,7 @@ def login():
             request.forms.get('password')
         )
         if user:
-            response.set_cookie('user_id', str(user['id']))
+            response.set_cookie('user_id', str(user['id']), path='/') #path='/' para o cookie ser válido em todo o site
             return redirect('/campeonato')
         return {
             'template': 'auth/login.tpl',
@@ -136,7 +137,7 @@ def register():
 
 @auth_app.route('/logout')
 def logout():
-    response.delete_cookie('user_id')
+    response.delete_cookie('user_id', path='/') #garantir que o cookie seja excluído
     return redirect('/auth/login')
 
 # Rota protegida de exemplo
@@ -145,7 +146,7 @@ def logout():
 def protected_route():
     current_user = user_service.get_current_user()
     return {
-        'template': 'protected.tpl',
+        'template': 'protected.tpl', #precis0 criar este template em views/protected.tpl
         'data': {
             'message': f'Área protegida - Bem-vindo, {current_user["name"]}!'
         }

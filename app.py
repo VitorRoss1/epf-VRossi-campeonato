@@ -1,6 +1,9 @@
 from bottle import Bottle, redirect
 from config import Config
-from controllers import campeonato_controller, user_controller
+
+# Importar as aplicações de outros módulos para montar
+from controllers.campeonato_controller import campeonato_app
+from controllers.user_controller import user_app, auth_app
 
 class App:
     def __init__(self):
@@ -9,9 +12,10 @@ class App:
         self.setup_routes()
 
     def setup_routes(self):
-        self.bottle.mount('/campeonato', campeonato_controller.campeonato_app)
-        self.bottle.mount('/users', user_controller.user_app)
-        self.bottle.mount('/auth', user_controller.auth_app)
+        # Monta as aplicações Bottle de outros arquivos
+        self.bottle.mount('/campeonato', campeonato_app)
+        self.bottle.mount('/users', user_app)
+        self.bottle.mount('/auth', auth_app)
         
         @self.bottle.route('/')
         def home():

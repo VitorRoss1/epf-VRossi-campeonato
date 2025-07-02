@@ -49,7 +49,7 @@
                             </span>
                         </p>
                         <p><strong>Aproveitamento:</strong> 
-                            {{'%.1f' % (time.stats["Pontos"] / (38 * 3) * 100) if rodada > 0 else 0}}%
+                            {{'%.1f' % (time.stats["Pontos"] / (rodada * 3) * 100) if rodada > 0 else 0}}%
                         </p>
                     </div>
                 </div>
@@ -61,11 +61,11 @@
         % if user_service.get_current_user():
             <div class="row">
                 % for jogador in time.getJogadores:
-                    {{ jogador_card(jogador, show_details=True) }}
+                    {{ jogador_card(jogador, show_details=False) }}
                 % end
             </div>
         % else:
-            {{ login_required_alert() }}
+            {{ login_required_alert("Faça login para visualizar o elenco completo e detalhes dos jogadores.") }}
         % end
     </div>
 </div>

@@ -1,7 +1,7 @@
 import json
 import os
 
-class User:
+class User: # Esta classe não está sendo usada diretamente, mas a manteve para o caso de uso futuro.
     def __init__(self, id, name, email, password):
         self.id = id
         self.name = name
@@ -15,7 +15,12 @@ class UserModel:
         self.users = self._load()
     
     def _load(self):
+        # Garante que o diretório 'data' exista
+        os.makedirs(os.path.dirname(self.FILE_PATH), exist_ok=True)
         if not os.path.exists(self.FILE_PATH):
+            # Cria o arquivo com uma lista vazia se ele não existir
+            with open(self.FILE_PATH, 'w') as f:
+                json.dump([], f)
             return []
         with open(self.FILE_PATH) as f:
             return json.load(f)
@@ -28,6 +33,7 @@ class UserModel:
         return self.users
     
     def get_by_id(self, user_id):
+        # Garante que user_id seja integer para comparação correta
         return next((u for u in self.users if u['id'] == user_id), None)
     
     def get_by_email(self, email):

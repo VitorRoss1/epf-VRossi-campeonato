@@ -46,6 +46,7 @@ def time(time_id):
         'template': 'campeonato/time.tpl',
         'data': {
             'time': time,
-            'user_service': user_service
+            'user_service': user_service,
+            'rodada': campeonato_service.get_current_rodada() ##
         }
     }
