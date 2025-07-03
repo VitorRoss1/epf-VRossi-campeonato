@@ -1,5 +1,35 @@
 % rebase('layout', title='Tabela de Classificação')
-% from 'helper_final.tpl' import tabela_row
+
+
+% def tabela_row(time, posicao, current_user=None):
+<tr class="{{'table-primary' if current_user and current_user['time_favorito'] == time.id else ''}}">
+    <td>{{posicao}}</td>
+    <td>
+        <a href="/campeonato/time/{{time.id}}" class="text-decoration-none">
+            <img src="/static/img/{{time.img_path}}" alt="{{time.nome}}" width="30" height="30" class="me-2">
+            {{time.nome}}
+        </a>
+    </td>
+    <td class="fw-bold">{{time.stats["Pontos"]}}</td>
+    <td>{{time.stats["vitorias"]}}</td>
+    <td>{{time.stats["empates"]}}</td>
+    <td>{{time.stats["derrotas"]}}</td>
+    <td>{{time.stats["gols_pro"]}}</td>
+    <td>{{time.stats["gols_contra"]}}</td>
+    <td class="{{'text-success' if time.Saldo_Gols() > 0 else 'text-danger' if time.Saldo_Gols() < 0 else ''}}">
+        {{time.Saldo_Gols()}}
+    </td>
+</tr>
+% end
+
+
+% def login_required_alert(message="Faça login para acessar este recurso"):
+<div class="alert alert-warning mt-3">
+    <i class="fas fa-exclamation-circle me-2"></i>
+    {{message}}
+    <a href="/auth/login" class="alert-link ms-2">Clique aqui para fazer login</a>
+</div>
+% end
 
 <div class="card">
     <div class="card-header bg-primary text-white">
@@ -25,7 +55,7 @@
                 <tbody>
                     % current_user = user_service.get_current_user()
                     % for idx, time in enumerate(times, 1):
-                        {{ tabela_row(time, idx, current_user) }}
+                        {{ tabela_row(time, idx, current_user) }} 
                     % end
                 </tbody>
             </table>

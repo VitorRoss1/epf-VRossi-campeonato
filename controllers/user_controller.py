@@ -1,27 +1,17 @@
-from bottle import Bottle, request, redirect, response
+from bottle import Bottle, request, redirect, response, template
 from services.user_service import UserService
-#from models.user import UserModel
+from models.user import UserModel
 
 user_service = UserService()
 
-
-# App para rotas de usuário
 user_app = Bottle()
-
-# App para rotas de autenticação
 auth_app = Bottle()
 
 @user_app.route('/')
 @user_service.login_required
 def list_users():
-    users = user_service.get_all_users() 
-    return {
-        'template': 'user/list.tpl',
-        'data': {
-            'users': users,
-            'user_service': user_service
-        }
-    }
+    users = user_service.get_all_users()
+    return template('user/list.tpl', users=users, user_service=user_service)
 
 @user_app.route('/add', method=['GET', 'POST'])
 @user_service.login_required
@@ -35,22 +25,17 @@ def add_user():
             )
             return redirect('/users')
         except ValueError as e:
-            return {
-                'template': 'user/form.tpl',
-                'data': {
-                    'user': None,
-                    'error': str(e),
-                    'action': '/users/add'
-                }
-            }
-    
-    return {
-        'template': 'user/form.tpl',
-        'data': {
-            'user': None,
-            'action': '/users/add'
-        }
-    }
+            return template(
+                'user/form.tpl',
+                user=None,
+                error=str(e),
+                action='/users/add'
+            )
+    return template(
+        'user/form.tpl',
+        user=None,
+        action='/users/add'
+    )
 
 @user_app.route('/edit/<user_id:int>', method=['GET', 'POST'])
 @user_service.login_required
@@ -68,26 +53,20 @@ def edit_user(user_id):
                 request.forms.get('password')
             )
             return redirect('/users')
-        except ValueError as e: # Pode não ser necessário se o update não levantar ValueErrors
-            return {
-                'template': 'user/form.tpl',
-                'data': {
-                    'user': user,
-                    'error': str(e),
-                    'action': f'/users/edit/{user_id}'
-                }
-            }
-    
-    return {
-        'template': 'user/form.tpl',
-        'data': {
-            'user': user,
-            'action': f'/users/edit/{user_id}'
-        }
-    }
+        except ValueError as e:
+            return template(
+                'user/form.tpl',
+                user=user,
+                error=str(e),
+                action=f'/users/edit/{user_id}'
+            )
+    return template(
+        'user/form.tpl',
+        user=user,
+        action=f'/users/edit/{user_id}'
+    )
 
-
-@user_app.route('/delete/<user_id:int>', method='POST') # Método deve ser POST para deleção
+@user_app.route('/delete/<user_id:int>', method='POST')
 @user_service.login_required
 def delete_user(user_id):
     if user_service.delete_user(user_id):
@@ -102,17 +81,11 @@ def login():
             request.forms.get('password')
         )
         if user:
-            response.set_cookie('user_id', str(user['id']), path='/') #path='/' para o cookie ser válido em todo o site
+            response.set_cookie('user_id', str(user['id']), path='/')
             return redirect('/campeonato')
-        return {
-            'template': 'auth/login.tpl',
-            'data': {'error': 'Email ou senha inválidos'}
-        }
+        return template('auth/login.tpl', error='Email ou senha inválidos')
     
-    return {
-        'template': 'auth/login.tpl',
-        'data': {}
-    }
+    return template('auth/login.tpl', error=None)
 
 @auth_app.route('/register', method=['GET', 'POST'])
 def register():
@@ -125,29 +98,20 @@ def register():
             )
             return redirect('/auth/login')
         except ValueError as e:
-            return {
-                'template': 'auth/register.tpl',
-                'data': {'error': str(e)}
-            }
+            return template('auth/register.tpl', error=str(e))
     
-    return {
-        'template': 'auth/register.tpl',
-        'data': {}
-    }
+    return template('auth/register.tpl', error=None)
 
 @auth_app.route('/logout')
 def logout():
-    response.delete_cookie('user_id', path='/') #garantir que o cookie seja excluído
+    response.delete_cookie('user_id', path='/')
     return redirect('/auth/login')
 
-# Rota protegida de exemplo
 @user_app.route('/protected')
 @user_service.login_required
 def protected_route():
     current_user = user_service.get_current_user()
-    return {
-        'template': 'protected.tpl', #precis0 criar este template em views/protected.tpl
-        'data': {
-            'message': f'Área protegida - Bem-vindo, {current_user["name"]}!'
-        }
-    }
+    return template(
+        'protected.tpl',
+        message=f'Área protegida - Bem-vindo, {current_user["name"]}!'
+    )

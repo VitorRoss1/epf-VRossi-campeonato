@@ -7,7 +7,11 @@ from models.partida import Partida
 class CampeonatoService:
     def __init__(self):
         self.times = self._load_times()
+        self._times_by_id = {time.id: time for time in self.times}
+
         self.partidas = self._load_partidas()
+        self._partidas_by_id = {partida.id: partida for partida in self.partidas}
+
 
         # Mapeia times por ID para acesso rápido
         self._times_by_id = {time.id: time for time in self.times}
@@ -79,9 +83,14 @@ class CampeonatoService:
                             casa=casa_time,
                             fora=fora_time
                         )
-                        # Se já houver placares no JSON, carregue-os
-                        if 'casa_placar' in data and 'fora_placar' in data:
-                            partida.definir_placar(data['casa_placar'], data['fora_placar'])
+                        # Se já houver placares no JSON, carrega
+                        # Tratar placares como 0 se forem None
+                        casa_placar = data.get('casa_placar')
+                        fora_placar = data.get('fora_placar')
+
+                        if casa_placar is not None and fora_placar is not None: #Só chamo definir placar se os dois nao forem None 
+                            partida.definir_placar(int(casa_placar), int(fora_placar)) # Garante que sejam ints
+
                         partidas.append(partida)
                 return partidas
         except FileNotFoundError:

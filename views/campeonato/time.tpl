@@ -1,11 +1,42 @@
 % rebase('layout', title=time.nome)
-% from 'helper_final.tpl' import jogador_card, login_required_alert
+
+
+% def jogador_card(jogador, show_details=False):
+<div class="col-md-3 mb-3">
+    <div class="card h-100">
+        <div class="card-body">
+            <div class="d-flex justify-content-between align-items-start">
+                <h5 class="card-title mb-1">
+                    <span class="badge bg-primary me-2">#{{jogador.numero}}</span>
+                    {{jogador.nome}}
+                </h5>
+                <span class="badge {{'bg-success' if jogador.posicao == 'Goleiro' else 'bg-info'}}">
+                    {{jogador.posicao}}
+                </span>
+            </div>
+            % if show_details:
+            <div class="mt-2">
+            </div>
+            % end
+        </div>
+    </div>
+</div>
+% end
+
+
+% def login_required_alert(message="Faça login para acessar este recurso"):
+<div class="alert alert-warning mt-3">
+    <i class="fas fa-exclamation-circle me-2"></i>
+    {{message}}
+    <a href="/auth/login" class="alert-link ms-2">Clique aqui para fazer login</a>
+</div>
+% end
 
 <div class="card">
     <div class="card-header bg-primary text-white">
         <div class="d-flex justify-content-between align-items-center">
             <h2 class="mb-0">
-                <img src="/static/images/{{time.img_path}}" alt="{{time.nome}}" width="50" height="50" class="me-3">
+                <img src="/static/img/{{time.img_path}}" alt="{{time.nome}}" width="50" height="50" class="me-3">
                 {{time.nome}} ({{time.sigla}})
             </h2>
             <a href="/campeonato" class="btn btn-light btn-sm">
@@ -61,11 +92,10 @@
         % if user_service.get_current_user():
             <div class="row">
                 % for jogador in time.getJogadores:
-                    {{ jogador_card(jogador, show_details=False) }}
+                    {{ jogador_card(jogador, show_details=False) }} 
                 % end
             </div>
         % else:
-            {{ login_required_alert("Faça login para visualizar o elenco completo e detalhes dos jogadores.") }}
-        % end
+            {{ login_required_alert("Faça login para visualizar o elenco completo e detalhes dos jogadores.") }} 
     </div>
 </div>

@@ -1,4 +1,4 @@
-from bottle import Bottle, redirect
+from bottle import Bottle, redirect, static_file
 from config import Config
 
 # Importar as aplicações de outros módulos para montar
@@ -16,6 +16,10 @@ class App:
         self.bottle.mount('/campeonato', campeonato_app)
         self.bottle.mount('/users', user_app)
         self.bottle.mount('/auth', auth_app)
+        
+        @self.bottle.route('/static/<filepath:path>') 
+        def serve_static(filepath):
+            return static_file(filepath, root=self.config.STATIC_PATH)
         
         @self.bottle.route('/')
         def home():

@@ -1,4 +1,4 @@
-from bottle import Bottle, request, redirect
+from bottle import Bottle, request, redirect, template
 from services.campeonato_service import CampeonatoService
 from services.user_service import UserService
 
@@ -9,25 +9,14 @@ user_service = UserService()
 @campeonato_app.route('/')
 def tabela():
     times = campeonato_service.get_tabela()
-    return {
-        'template': 'campeonato/tabela.tpl',
-        'data': {
-            'times': times,
-            'user_service': user_service
-        }
-    }
+    return template('campeonato/tabela.tpl', times=times, user_service=user_service)
+
 
 @campeonato_app.route('/rodada/<rodada:int>')
 def rodada(rodada):
     partidas = campeonato_service.get_partidas_rodada(rodada)
-    return {
-        'template': 'campeonato/rodada.tpl',
-        'data': {
-            'rodada': rodada,
-            'partidas': partidas,
-            'user_service': user_service
-        }
-    }
+    return template('campeonato/rodada.tpl', rodada=rodada, partidas=partidas, user_service=user_service)
+
 
 @campeonato_app.route('/enviar-placares', method='POST')
 @user_service.login_required
@@ -42,11 +31,4 @@ def enviar_placares():
 @campeonato_app.route('/time/<time_id:int>')
 def time(time_id):
     time = campeonato_service.get_time(time_id)
-    return {
-        'template': 'campeonato/time.tpl',
-        'data': {
-            'time': time,
-            'user_service': user_service,
-            'rodada': campeonato_service.get_current_rodada() ##
-        }
-    }
+    return template('campeonato/time.tpl', time=time, user_service=user_service, rodada=campeonato_service.get_current_rodada())
