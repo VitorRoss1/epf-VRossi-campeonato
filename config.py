@@ -1,7 +1,7 @@
 import os
 
 class Config:
-    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    BASE_DIR = '/Users/vitorrossi/Documents/VsCode/campeonato'
 
     # Configurações do servidor
     HOST = 'localhost'

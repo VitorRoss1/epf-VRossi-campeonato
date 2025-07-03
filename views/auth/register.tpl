@@ -5,8 +5,8 @@
         <div class="card">
             <div class="card-header">Criar Nova Conta</div>
             <div class="card-body">
-                % if 'error' in data:
-                <div class="alert alert-danger">{{data['error']}}</div>
+                % if error: 
+                <div class="alert alert-danger">{{error}}</div> {# <--- E AQUI, SÓ 'error' #}
                 % end
                 
                 <form action="/auth/register" method="post">

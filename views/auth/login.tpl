@@ -5,8 +5,8 @@
         <div class="card">
             <div class="card-header">Login</div>
             <div class="card-body">
-                % if 'error' in data:
-                <div class="alert alert-danger">{{data['error']}}</div>
+                % if error: 
+                <div class="alert alert-danger">{{error}}</div> 
                 % end
                 
                 <form action="/auth/login" method="post">

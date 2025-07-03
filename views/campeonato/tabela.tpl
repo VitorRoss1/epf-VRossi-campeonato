@@ -2,7 +2,7 @@
 
 
 % def tabela_row(time, posicao, current_user=None):
-<tr class="{{'table-primary' if current_user and current_user['time_favorito'] == time.id else ''}}">
+<tr class="">
     <td>{{posicao}}</td>
     <td>
         <a href="/campeonato/time/{{time.id}}" class="text-decoration-none">
