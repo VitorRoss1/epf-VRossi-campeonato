@@ -11,17 +11,17 @@ class Partida:
         self.casa_placar = casa_gols
         self.fora_placar = fora_gols
         
-        # atualiza estatisticas 
-        self.casa.stats["gols_pro"] += casa_gols
-        self.casa.stats["gols_contra"] += fora_gols
-        self.fora.stats["gols_pro"] += fora_gols
-        self.fora.stats["gols_contra"] += casa_gols
+        # atualiza estatisticas ESTA INVERTIDO POIS DEU BUG E A MANEIRA MAIS SIMPLES FOI ESSA 
+        self.casa.stats["gols_pro"] += fora_gols
+        self.casa.stats["gols_contra"] += casa_gols
+        self.fora.stats["gols_pro"] += casa_gols
+        self.fora.stats["gols_contra"] += fora_gols
 
-        if casa_gols > fora_gols:
+        if fora_gols > casa_gols:
             self.casa.stats["vitorias"] += 1
             self.casa.stats["Pontos"] += 3
             self.fora.stats["derrotas"] += 1
-        elif casa_gols < fora_gols:
+        elif fora_gols < casa_gols:
             self.fora.stats["vitorias"] += 1
             self.fora.stats["Pontos"] += 3
             self.casa.stats["derrotas"] += 1

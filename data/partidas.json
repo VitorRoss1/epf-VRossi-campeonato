@@ -83,79 +83,79 @@
         "id": 11,
         "rodada": 2,
         "casa_id": 1,
-        "fora_id": 20,
+        "fora_id": 19,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 12,
         "rodada": 2,
-        "casa_id": 2,
-        "fora_id": 19,
+        "casa_id": 20,
+        "fora_id": 18,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 13,
         "rodada": 2,
-        "casa_id": 3,
-        "fora_id": 18,
+        "casa_id": 2,
+        "fora_id": 17,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 14,
         "rodada": 2,
-        "casa_id": 4,
-        "fora_id": 17,
+        "casa_id": 3,
+        "fora_id": 16,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 15,
         "rodada": 2,
-        "casa_id": 5,
-        "fora_id": 16,
+        "casa_id": 4,
+        "fora_id": 15,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 16,
         "rodada": 2,
-        "casa_id": 6,
-        "fora_id": 15,
+        "casa_id": 5,
+        "fora_id": 14,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 17,
         "rodada": 2,
-        "casa_id": 7,
-        "fora_id": 14,
+        "casa_id": 6,
+        "fora_id": 13,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 18,
         "rodada": 2,
-        "casa_id": 8,
-        "fora_id": 13,
+        "casa_id": 7,
+        "fora_id": 12,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 19,
         "rodada": 2,
-        "casa_id": 9,
-        "fora_id": 12,
+        "casa_id": 8,
+        "fora_id": 11,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 20,
         "rodada": 2,
-        "casa_id": 10,
-        "fora_id": 11,
+        "casa_id": 9,
+        "fora_id": 10,
         "casa_placar": null,
         "fora_placar": null
     },
@@ -163,79 +163,79 @@
         "id": 21,
         "rodada": 3,
         "casa_id": 1,
-        "fora_id": 20,
+        "fora_id": 18,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 22,
         "rodada": 3,
-        "casa_id": 2,
-        "fora_id": 19,
+        "casa_id": 19,
+        "fora_id": 17,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 23,
         "rodada": 3,
-        "casa_id": 3,
-        "fora_id": 18,
+        "casa_id": 20,
+        "fora_id": 16,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 24,
         "rodada": 3,
-        "casa_id": 4,
-        "fora_id": 17,
+        "casa_id": 2,
+        "fora_id": 15,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 25,
         "rodada": 3,
-        "casa_id": 5,
-        "fora_id": 16,
+        "casa_id": 3,
+        "fora_id": 14,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 26,
         "rodada": 3,
-        "casa_id": 6,
-        "fora_id": 15,
+        "casa_id": 4,
+        "fora_id": 13,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 27,
         "rodada": 3,
-        "casa_id": 7,
-        "fora_id": 14,
+        "casa_id": 5,
+        "fora_id": 12,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 28,
         "rodada": 3,
-        "casa_id": 8,
-        "fora_id": 13,
+        "casa_id": 6,
+        "fora_id": 11,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 29,
         "rodada": 3,
-        "casa_id": 9,
-        "fora_id": 12,
+        "casa_id": 7,
+        "fora_id": 10,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 30,
         "rodada": 3,
-        "casa_id": 10,
-        "fora_id": 11,
+        "casa_id": 8,
+        "fora_id": 9,
         "casa_placar": null,
         "fora_placar": null
     },
@@ -243,79 +243,79 @@
         "id": 31,
         "rodada": 4,
         "casa_id": 1,
-        "fora_id": 20,
+        "fora_id": 17,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 32,
         "rodada": 4,
-        "casa_id": 2,
-        "fora_id": 19,
+        "casa_id": 18,
+        "fora_id": 16,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 33,
         "rodada": 4,
-        "casa_id": 3,
-        "fora_id": 18,
+        "casa_id": 19,
+        "fora_id": 15,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 34,
         "rodada": 4,
-        "casa_id": 4,
-        "fora_id": 17,
+        "casa_id": 20,
+        "fora_id": 14,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 35,
         "rodada": 4,
-        "casa_id": 5,
-        "fora_id": 16,
+        "casa_id": 2,
+        "fora_id": 13,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 36,
         "rodada": 4,
-        "casa_id": 6,
-        "fora_id": 15,
+        "casa_id": 3,
+        "fora_id": 12,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 37,
         "rodada": 4,
-        "casa_id": 7,
-        "fora_id": 14,
+        "casa_id": 4,
+        "fora_id": 11,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 38,
         "rodada": 4,
-        "casa_id": 8,
-        "fora_id": 13,
+        "casa_id": 5,
+        "fora_id": 10,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 39,
         "rodada": 4,
-        "casa_id": 9,
-        "fora_id": 12,
+        "casa_id": 6,
+        "fora_id": 9,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 40,
         "rodada": 4,
-        "casa_id": 10,
-        "fora_id": 11,
+        "casa_id": 7,
+        "fora_id": 8,
         "casa_placar": null,
         "fora_placar": null
     },
@@ -323,79 +323,79 @@
         "id": 41,
         "rodada": 5,
         "casa_id": 1,
-        "fora_id": 20,
+        "fora_id": 16,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 42,
         "rodada": 5,
-        "casa_id": 2,
-        "fora_id": 19,
+        "casa_id": 17,
+        "fora_id": 15,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 43,
         "rodada": 5,
-        "casa_id": 3,
-        "fora_id": 18,
+        "casa_id": 18,
+        "fora_id": 14,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 44,
         "rodada": 5,
-        "casa_id": 4,
-        "fora_id": 17,
+        "casa_id": 19,
+        "fora_id": 13,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 45,
         "rodada": 5,
-        "casa_id": 5,
-        "fora_id": 16,
+        "casa_id": 20,
+        "fora_id": 12,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 46,
         "rodada": 5,
-        "casa_id": 6,
-        "fora_id": 15,
+        "casa_id": 2,
+        "fora_id": 11,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 47,
         "rodada": 5,
-        "casa_id": 7,
-        "fora_id": 14,
+        "casa_id": 3,
+        "fora_id": 10,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 48,
         "rodada": 5,
-        "casa_id": 8,
-        "fora_id": 13,
+        "casa_id": 4,
+        "fora_id": 9,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 49,
         "rodada": 5,
-        "casa_id": 9,
-        "fora_id": 12,
+        "casa_id": 5,
+        "fora_id": 8,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 50,
         "rodada": 5,
-        "casa_id": 10,
-        "fora_id": 11,
+        "casa_id": 6,
+        "fora_id": 7,
         "casa_placar": null,
         "fora_placar": null
     },
@@ -403,79 +403,79 @@
         "id": 51,
         "rodada": 6,
         "casa_id": 1,
-        "fora_id": 20,
+        "fora_id": 15,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 52,
         "rodada": 6,
-        "casa_id": 2,
-        "fora_id": 19,
+        "casa_id": 16,
+        "fora_id": 14,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 53,
         "rodada": 6,
-        "casa_id": 3,
-        "fora_id": 18,
+        "casa_id": 17,
+        "fora_id": 13,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 54,
         "rodada": 6,
-        "casa_id": 4,
-        "fora_id": 17,
+        "casa_id": 18,
+        "fora_id": 12,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 55,
         "rodada": 6,
-        "casa_id": 5,
-        "fora_id": 16,
+        "casa_id": 19,
+        "fora_id": 11,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 56,
         "rodada": 6,
-        "casa_id": 6,
-        "fora_id": 15,
+        "casa_id": 20,
+        "fora_id": 10,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 57,
         "rodada": 6,
-        "casa_id": 7,
-        "fora_id": 14,
+        "casa_id": 2,
+        "fora_id": 9,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 58,
         "rodada": 6,
-        "casa_id": 8,
-        "fora_id": 13,
+        "casa_id": 3,
+        "fora_id": 8,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 59,
         "rodada": 6,
-        "casa_id": 9,
-        "fora_id": 12,
+        "casa_id": 4,
+        "fora_id": 7,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 60,
         "rodada": 6,
-        "casa_id": 10,
-        "fora_id": 11,
+        "casa_id": 5,
+        "fora_id": 6,
         "casa_placar": null,
         "fora_placar": null
     },
@@ -483,79 +483,79 @@
         "id": 61,
         "rodada": 7,
         "casa_id": 1,
-        "fora_id": 20,
+        "fora_id": 14,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 62,
         "rodada": 7,
-        "casa_id": 2,
-        "fora_id": 19,
+        "casa_id": 15,
+        "fora_id": 13,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 63,
         "rodada": 7,
-        "casa_id": 3,
-        "fora_id": 18,
+        "casa_id": 16,
+        "fora_id": 12,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 64,
         "rodada": 7,
-        "casa_id": 4,
-        "fora_id": 17,
+        "casa_id": 17,
+        "fora_id": 11,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 65,
         "rodada": 7,
-        "casa_id": 5,
-        "fora_id": 16,
+        "casa_id": 18,
+        "fora_id": 10,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 66,
         "rodada": 7,
-        "casa_id": 6,
-        "fora_id": 15,
+        "casa_id": 19,
+        "fora_id": 9,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 67,
         "rodada": 7,
-        "casa_id": 7,
-        "fora_id": 14,
+        "casa_id": 20,
+        "fora_id": 8,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 68,
         "rodada": 7,
-        "casa_id": 8,
-        "fora_id": 13,
+        "casa_id": 2,
+        "fora_id": 7,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 69,
         "rodada": 7,
-        "casa_id": 9,
-        "fora_id": 12,
+        "casa_id": 3,
+        "fora_id": 6,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 70,
         "rodada": 7,
-        "casa_id": 10,
-        "fora_id": 11,
+        "casa_id": 4,
+        "fora_id": 5,
         "casa_placar": null,
         "fora_placar": null
     },
@@ -563,79 +563,79 @@
         "id": 71,
         "rodada": 8,
         "casa_id": 1,
-        "fora_id": 20,
+        "fora_id": 13,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 72,
         "rodada": 8,
-        "casa_id": 2,
-        "fora_id": 19,
+        "casa_id": 14,
+        "fora_id": 12,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 73,
         "rodada": 8,
-        "casa_id": 3,
-        "fora_id": 18,
+        "casa_id": 15,
+        "fora_id": 11,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 74,
         "rodada": 8,
-        "casa_id": 4,
-        "fora_id": 17,
+        "casa_id": 16,
+        "fora_id": 10,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 75,
         "rodada": 8,
-        "casa_id": 5,
-        "fora_id": 16,
+        "casa_id": 17,
+        "fora_id": 9,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 76,
         "rodada": 8,
-        "casa_id": 6,
-        "fora_id": 15,
+        "casa_id": 18,
+        "fora_id": 8,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 77,
         "rodada": 8,
-        "casa_id": 7,
-        "fora_id": 14,
+        "casa_id": 19,
+        "fora_id": 7,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 78,
         "rodada": 8,
-        "casa_id": 8,
-        "fora_id": 13,
+        "casa_id": 20,
+        "fora_id": 6,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 79,
         "rodada": 8,
-        "casa_id": 9,
-        "fora_id": 12,
+        "casa_id": 2,
+        "fora_id": 5,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 80,
         "rodada": 8,
-        "casa_id": 10,
-        "fora_id": 11,
+        "casa_id": 3,
+        "fora_id": 4,
         "casa_placar": null,
         "fora_placar": null
     },
@@ -643,79 +643,79 @@
         "id": 81,
         "rodada": 9,
         "casa_id": 1,
-        "fora_id": 20,
+        "fora_id": 12,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 82,
         "rodada": 9,
-        "casa_id": 2,
-        "fora_id": 19,
+        "casa_id": 13,
+        "fora_id": 11,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 83,
         "rodada": 9,
-        "casa_id": 3,
-        "fora_id": 18,
+        "casa_id": 14,
+        "fora_id": 10,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 84,
         "rodada": 9,
-        "casa_id": 4,
-        "fora_id": 17,
+        "casa_id": 15,
+        "fora_id": 9,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 85,
         "rodada": 9,
-        "casa_id": 5,
-        "fora_id": 16,
+        "casa_id": 16,
+        "fora_id": 8,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 86,
         "rodada": 9,
-        "casa_id": 6,
-        "fora_id": 15,
+        "casa_id": 17,
+        "fora_id": 7,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 87,
         "rodada": 9,
-        "casa_id": 7,
-        "fora_id": 14,
+        "casa_id": 18,
+        "fora_id": 6,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 88,
         "rodada": 9,
-        "casa_id": 8,
-        "fora_id": 13,
+        "casa_id": 19,
+        "fora_id": 5,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 89,
         "rodada": 9,
-        "casa_id": 9,
-        "fora_id": 12,
+        "casa_id": 20,
+        "fora_id": 4,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 90,
         "rodada": 9,
-        "casa_id": 10,
-        "fora_id": 11,
+        "casa_id": 2,
+        "fora_id": 3,
         "casa_placar": null,
         "fora_placar": null
     },
@@ -723,79 +723,79 @@
         "id": 91,
         "rodada": 10,
         "casa_id": 1,
-        "fora_id": 20,
+        "fora_id": 11,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 92,
         "rodada": 10,
-        "casa_id": 2,
-        "fora_id": 19,
+        "casa_id": 12,
+        "fora_id": 10,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 93,
         "rodada": 10,
-        "casa_id": 3,
-        "fora_id": 18,
+        "casa_id": 13,
+        "fora_id": 9,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 94,
         "rodada": 10,
-        "casa_id": 4,
-        "fora_id": 17,
+        "casa_id": 14,
+        "fora_id": 8,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 95,
         "rodada": 10,
-        "casa_id": 5,
-        "fora_id": 16,
+        "casa_id": 15,
+        "fora_id": 7,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 96,
         "rodada": 10,
-        "casa_id": 6,
-        "fora_id": 15,
+        "casa_id": 16,
+        "fora_id": 6,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 97,
         "rodada": 10,
-        "casa_id": 7,
-        "fora_id": 14,
+        "casa_id": 17,
+        "fora_id": 5,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 98,
         "rodada": 10,
-        "casa_id": 8,
-        "fora_id": 13,
+        "casa_id": 18,
+        "fora_id": 4,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 99,
         "rodada": 10,
-        "casa_id": 9,
-        "fora_id": 12,
+        "casa_id": 19,
+        "fora_id": 3,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 100,
         "rodada": 10,
-        "casa_id": 10,
-        "fora_id": 11,
+        "casa_id": 20,
+        "fora_id": 2,
         "casa_placar": null,
         "fora_placar": null
     },
@@ -803,79 +803,79 @@
         "id": 101,
         "rodada": 11,
         "casa_id": 1,
-        "fora_id": 20,
+        "fora_id": 10,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 102,
         "rodada": 11,
-        "casa_id": 2,
-        "fora_id": 19,
+        "casa_id": 11,
+        "fora_id": 9,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 103,
         "rodada": 11,
-        "casa_id": 3,
-        "fora_id": 18,
+        "casa_id": 12,
+        "fora_id": 8,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 104,
         "rodada": 11,
-        "casa_id": 4,
-        "fora_id": 17,
+        "casa_id": 13,
+        "fora_id": 7,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 105,
         "rodada": 11,
-        "casa_id": 5,
-        "fora_id": 16,
+        "casa_id": 14,
+        "fora_id": 6,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 106,
         "rodada": 11,
-        "casa_id": 6,
-        "fora_id": 15,
+        "casa_id": 15,
+        "fora_id": 5,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 107,
         "rodada": 11,
-        "casa_id": 7,
-        "fora_id": 14,
+        "casa_id": 16,
+        "fora_id": 4,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 108,
         "rodada": 11,
-        "casa_id": 8,
-        "fora_id": 13,
+        "casa_id": 17,
+        "fora_id": 3,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 109,
         "rodada": 11,
-        "casa_id": 9,
-        "fora_id": 12,
+        "casa_id": 18,
+        "fora_id": 2,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 110,
         "rodada": 11,
-        "casa_id": 10,
-        "fora_id": 11,
+        "casa_id": 19,
+        "fora_id": 20,
         "casa_placar": null,
         "fora_placar": null
     },
@@ -883,79 +883,79 @@
         "id": 111,
         "rodada": 12,
         "casa_id": 1,
-        "fora_id": 20,
+        "fora_id": 9,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 112,
         "rodada": 12,
-        "casa_id": 2,
-        "fora_id": 19,
+        "casa_id": 10,
+        "fora_id": 8,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 113,
         "rodada": 12,
-        "casa_id": 3,
-        "fora_id": 18,
+        "casa_id": 11,
+        "fora_id": 7,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 114,
         "rodada": 12,
-        "casa_id": 4,
-        "fora_id": 17,
+        "casa_id": 12,
+        "fora_id": 6,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 115,
         "rodada": 12,
-        "casa_id": 5,
-        "fora_id": 16,
+        "casa_id": 13,
+        "fora_id": 5,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 116,
         "rodada": 12,
-        "casa_id": 6,
-        "fora_id": 15,
+        "casa_id": 14,
+        "fora_id": 4,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 117,
         "rodada": 12,
-        "casa_id": 7,
-        "fora_id": 14,
+        "casa_id": 15,
+        "fora_id": 3,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 118,
         "rodada": 12,
-        "casa_id": 8,
-        "fora_id": 13,
+        "casa_id": 16,
+        "fora_id": 2,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 119,
         "rodada": 12,
-        "casa_id": 9,
-        "fora_id": 12,
+        "casa_id": 17,
+        "fora_id": 20,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 120,
         "rodada": 12,
-        "casa_id": 10,
-        "fora_id": 11,
+        "casa_id": 18,
+        "fora_id": 19,
         "casa_placar": null,
         "fora_placar": null
     },
@@ -963,79 +963,79 @@
         "id": 121,
         "rodada": 13,
         "casa_id": 1,
-        "fora_id": 20,
+        "fora_id": 8,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 122,
         "rodada": 13,
-        "casa_id": 2,
-        "fora_id": 19,
+        "casa_id": 9,
+        "fora_id": 7,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 123,
         "rodada": 13,
-        "casa_id": 3,
-        "fora_id": 18,
+        "casa_id": 10,
+        "fora_id": 6,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 124,
         "rodada": 13,
-        "casa_id": 4,
-        "fora_id": 17,
+        "casa_id": 11,
+        "fora_id": 5,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 125,
         "rodada": 13,
-        "casa_id": 5,
-        "fora_id": 16,
+        "casa_id": 12,
+        "fora_id": 4,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 126,
         "rodada": 13,
-        "casa_id": 6,
-        "fora_id": 15,
+        "casa_id": 13,
+        "fora_id": 3,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 127,
         "rodada": 13,
-        "casa_id": 7,
-        "fora_id": 14,
+        "casa_id": 14,
+        "fora_id": 2,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 128,
         "rodada": 13,
-        "casa_id": 8,
-        "fora_id": 13,
+        "casa_id": 15,
+        "fora_id": 20,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 129,
         "rodada": 13,
-        "casa_id": 9,
-        "fora_id": 12,
+        "casa_id": 16,
+        "fora_id": 19,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 130,
         "rodada": 13,
-        "casa_id": 10,
-        "fora_id": 11,
+        "casa_id": 17,
+        "fora_id": 18,
         "casa_placar": null,
         "fora_placar": null
     },
@@ -1043,79 +1043,79 @@
         "id": 131,
         "rodada": 14,
         "casa_id": 1,
-        "fora_id": 20,
+        "fora_id": 7,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 132,
         "rodada": 14,
-        "casa_id": 2,
-        "fora_id": 19,
+        "casa_id": 8,
+        "fora_id": 6,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 133,
         "rodada": 14,
-        "casa_id": 3,
-        "fora_id": 18,
+        "casa_id": 9,
+        "fora_id": 5,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 134,
         "rodada": 14,
-        "casa_id": 4,
-        "fora_id": 17,
+        "casa_id": 10,
+        "fora_id": 4,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 135,
         "rodada": 14,
-        "casa_id": 5,
-        "fora_id": 16,
+        "casa_id": 11,
+        "fora_id": 3,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 136,
         "rodada": 14,
-        "casa_id": 6,
-        "fora_id": 15,
+        "casa_id": 12,
+        "fora_id": 2,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 137,
         "rodada": 14,
-        "casa_id": 7,
-        "fora_id": 14,
+        "casa_id": 13,
+        "fora_id": 20,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 138,
         "rodada": 14,
-        "casa_id": 8,
-        "fora_id": 13,
+        "casa_id": 14,
+        "fora_id": 19,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 139,
         "rodada": 14,
-        "casa_id": 9,
-        "fora_id": 12,
+        "casa_id": 15,
+        "fora_id": 18,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 140,
         "rodada": 14,
-        "casa_id": 10,
-        "fora_id": 11,
+        "casa_id": 16,
+        "fora_id": 17,
         "casa_placar": null,
         "fora_placar": null
     },
@@ -1123,79 +1123,79 @@
         "id": 141,
         "rodada": 15,
         "casa_id": 1,
-        "fora_id": 20,
+        "fora_id": 6,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 142,
         "rodada": 15,
-        "casa_id": 2,
-        "fora_id": 19,
+        "casa_id": 7,
+        "fora_id": 5,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 143,
         "rodada": 15,
-        "casa_id": 3,
-        "fora_id": 18,
+        "casa_id": 8,
+        "fora_id": 4,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 144,
         "rodada": 15,
-        "casa_id": 4,
-        "fora_id": 17,
+        "casa_id": 9,
+        "fora_id": 3,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 145,
         "rodada": 15,
-        "casa_id": 5,
-        "fora_id": 16,
+        "casa_id": 10,
+        "fora_id": 2,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 146,
         "rodada": 15,
-        "casa_id": 6,
-        "fora_id": 15,
+        "casa_id": 11,
+        "fora_id": 20,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 147,
         "rodada": 15,
-        "casa_id": 7,
-        "fora_id": 14,
+        "casa_id": 12,
+        "fora_id": 19,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 148,
         "rodada": 15,
-        "casa_id": 8,
-        "fora_id": 13,
+        "casa_id": 13,
+        "fora_id": 18,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 149,
         "rodada": 15,
-        "casa_id": 9,
-        "fora_id": 12,
+        "casa_id": 14,
+        "fora_id": 17,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 150,
         "rodada": 15,
-        "casa_id": 10,
-        "fora_id": 11,
+        "casa_id": 15,
+        "fora_id": 16,
         "casa_placar": null,
         "fora_placar": null
     },
@@ -1203,79 +1203,79 @@
         "id": 151,
         "rodada": 16,
         "casa_id": 1,
-        "fora_id": 20,
+        "fora_id": 5,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 152,
         "rodada": 16,
-        "casa_id": 2,
-        "fora_id": 19,
+        "casa_id": 6,
+        "fora_id": 4,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 153,
         "rodada": 16,
-        "casa_id": 3,
-        "fora_id": 18,
+        "casa_id": 7,
+        "fora_id": 3,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 154,
         "rodada": 16,
-        "casa_id": 4,
-        "fora_id": 17,
+        "casa_id": 8,
+        "fora_id": 2,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 155,
         "rodada": 16,
-        "casa_id": 5,
-        "fora_id": 16,
+        "casa_id": 9,
+        "fora_id": 20,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 156,
         "rodada": 16,
-        "casa_id": 6,
-        "fora_id": 15,
+        "casa_id": 10,
+        "fora_id": 19,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 157,
         "rodada": 16,
-        "casa_id": 7,
-        "fora_id": 14,
+        "casa_id": 11,
+        "fora_id": 18,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 158,
         "rodada": 16,
-        "casa_id": 8,
-        "fora_id": 13,
+        "casa_id": 12,
+        "fora_id": 17,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 159,
         "rodada": 16,
-        "casa_id": 9,
-        "fora_id": 12,
+        "casa_id": 13,
+        "fora_id": 16,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 160,
         "rodada": 16,
-        "casa_id": 10,
-        "fora_id": 11,
+        "casa_id": 14,
+        "fora_id": 15,
         "casa_placar": null,
         "fora_placar": null
     },
@@ -1283,79 +1283,79 @@
         "id": 161,
         "rodada": 17,
         "casa_id": 1,
-        "fora_id": 20,
+        "fora_id": 4,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 162,
         "rodada": 17,
-        "casa_id": 2,
-        "fora_id": 19,
+        "casa_id": 5,
+        "fora_id": 3,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 163,
         "rodada": 17,
-        "casa_id": 3,
-        "fora_id": 18,
+        "casa_id": 6,
+        "fora_id": 2,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 164,
         "rodada": 17,
-        "casa_id": 4,
-        "fora_id": 17,
+        "casa_id": 7,
+        "fora_id": 20,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 165,
         "rodada": 17,
-        "casa_id": 5,
-        "fora_id": 16,
+        "casa_id": 8,
+        "fora_id": 19,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 166,
         "rodada": 17,
-        "casa_id": 6,
-        "fora_id": 15,
+        "casa_id": 9,
+        "fora_id": 18,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 167,
         "rodada": 17,
-        "casa_id": 7,
-        "fora_id": 14,
+        "casa_id": 10,
+        "fora_id": 17,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 168,
         "rodada": 17,
-        "casa_id": 8,
-        "fora_id": 13,
+        "casa_id": 11,
+        "fora_id": 16,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 169,
         "rodada": 17,
-        "casa_id": 9,
-        "fora_id": 12,
+        "casa_id": 12,
+        "fora_id": 15,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 170,
         "rodada": 17,
-        "casa_id": 10,
-        "fora_id": 11,
+        "casa_id": 13,
+        "fora_id": 14,
         "casa_placar": null,
         "fora_placar": null
     },
@@ -1363,79 +1363,79 @@
         "id": 171,
         "rodada": 18,
         "casa_id": 1,
-        "fora_id": 20,
+        "fora_id": 3,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 172,
         "rodada": 18,
-        "casa_id": 2,
-        "fora_id": 19,
+        "casa_id": 4,
+        "fora_id": 2,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 173,
         "rodada": 18,
-        "casa_id": 3,
-        "fora_id": 18,
+        "casa_id": 5,
+        "fora_id": 20,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 174,
         "rodada": 18,
-        "casa_id": 4,
-        "fora_id": 17,
+        "casa_id": 6,
+        "fora_id": 19,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 175,
         "rodada": 18,
-        "casa_id": 5,
-        "fora_id": 16,
+        "casa_id": 7,
+        "fora_id": 18,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 176,
         "rodada": 18,
-        "casa_id": 6,
-        "fora_id": 15,
+        "casa_id": 8,
+        "fora_id": 17,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 177,
         "rodada": 18,
-        "casa_id": 7,
-        "fora_id": 14,
+        "casa_id": 9,
+        "fora_id": 16,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 178,
         "rodada": 18,
-        "casa_id": 8,
-        "fora_id": 13,
+        "casa_id": 10,
+        "fora_id": 15,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 179,
         "rodada": 18,
-        "casa_id": 9,
-        "fora_id": 12,
+        "casa_id": 11,
+        "fora_id": 14,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 180,
         "rodada": 18,
-        "casa_id": 10,
-        "fora_id": 11,
+        "casa_id": 12,
+        "fora_id": 13,
         "casa_placar": null,
         "fora_placar": null
     },
@@ -1443,79 +1443,79 @@
         "id": 181,
         "rodada": 19,
         "casa_id": 1,
-        "fora_id": 20,
+        "fora_id": 2,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 182,
         "rodada": 19,
-        "casa_id": 2,
-        "fora_id": 19,
+        "casa_id": 3,
+        "fora_id": 20,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 183,
         "rodada": 19,
-        "casa_id": 3,
-        "fora_id": 18,
+        "casa_id": 4,
+        "fora_id": 19,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 184,
         "rodada": 19,
-        "casa_id": 4,
-        "fora_id": 17,
+        "casa_id": 5,
+        "fora_id": 18,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 185,
         "rodada": 19,
-        "casa_id": 5,
-        "fora_id": 16,
+        "casa_id": 6,
+        "fora_id": 17,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 186,
         "rodada": 19,
-        "casa_id": 6,
-        "fora_id": 15,
+        "casa_id": 7,
+        "fora_id": 16,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 187,
         "rodada": 19,
-        "casa_id": 7,
-        "fora_id": 14,
+        "casa_id": 8,
+        "fora_id": 15,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 188,
         "rodada": 19,
-        "casa_id": 8,
-        "fora_id": 13,
+        "casa_id": 9,
+        "fora_id": 14,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 189,
         "rodada": 19,
-        "casa_id": 9,
-        "fora_id": 12,
+        "casa_id": 10,
+        "fora_id": 13,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 190,
         "rodada": 19,
-        "casa_id": 10,
-        "fora_id": 11,
+        "casa_id": 11,
+        "fora_id": 12,
         "casa_placar": null,
         "fora_placar": null
     },
@@ -1602,7 +1602,7 @@
     {
         "id": 201,
         "rodada": 21,
-        "casa_id": 20,
+        "casa_id": 19,
         "fora_id": 1,
         "casa_placar": null,
         "fora_placar": null
@@ -1610,79 +1610,79 @@
     {
         "id": 202,
         "rodada": 21,
-        "casa_id": 19,
-        "fora_id": 2,
+        "casa_id": 18,
+        "fora_id": 20,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 203,
         "rodada": 21,
-        "casa_id": 18,
-        "fora_id": 3,
+        "casa_id": 17,
+        "fora_id": 2,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 204,
         "rodada": 21,
-        "casa_id": 17,
-        "fora_id": 4,
+        "casa_id": 16,
+        "fora_id": 3,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 205,
         "rodada": 21,
-        "casa_id": 16,
-        "fora_id": 5,
+        "casa_id": 15,
+        "fora_id": 4,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 206,
         "rodada": 21,
-        "casa_id": 15,
-        "fora_id": 6,
+        "casa_id": 14,
+        "fora_id": 5,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 207,
         "rodada": 21,
-        "casa_id": 14,
-        "fora_id": 7,
+        "casa_id": 13,
+        "fora_id": 6,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 208,
         "rodada": 21,
-        "casa_id": 13,
-        "fora_id": 8,
+        "casa_id": 12,
+        "fora_id": 7,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 209,
         "rodada": 21,
-        "casa_id": 12,
-        "fora_id": 9,
+        "casa_id": 11,
+        "fora_id": 8,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 210,
         "rodada": 21,
-        "casa_id": 11,
-        "fora_id": 10,
+        "casa_id": 10,
+        "fora_id": 9,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 211,
         "rodada": 22,
-        "casa_id": 20,
+        "casa_id": 18,
         "fora_id": 1,
         "casa_placar": null,
         "fora_placar": null
@@ -1690,79 +1690,79 @@
     {
         "id": 212,
         "rodada": 22,
-        "casa_id": 19,
-        "fora_id": 2,
+        "casa_id": 17,
+        "fora_id": 19,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 213,
         "rodada": 22,
-        "casa_id": 18,
-        "fora_id": 3,
+        "casa_id": 16,
+        "fora_id": 20,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 214,
         "rodada": 22,
-        "casa_id": 17,
-        "fora_id": 4,
+        "casa_id": 15,
+        "fora_id": 2,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 215,
         "rodada": 22,
-        "casa_id": 16,
-        "fora_id": 5,
+        "casa_id": 14,
+        "fora_id": 3,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 216,
         "rodada": 22,
-        "casa_id": 15,
-        "fora_id": 6,
+        "casa_id": 13,
+        "fora_id": 4,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 217,
         "rodada": 22,
-        "casa_id": 14,
-        "fora_id": 7,
+        "casa_id": 12,
+        "fora_id": 5,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 218,
         "rodada": 22,
-        "casa_id": 13,
-        "fora_id": 8,
+        "casa_id": 11,
+        "fora_id": 6,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 219,
         "rodada": 22,
-        "casa_id": 12,
-        "fora_id": 9,
+        "casa_id": 10,
+        "fora_id": 7,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 220,
         "rodada": 22,
-        "casa_id": 11,
-        "fora_id": 10,
+        "casa_id": 9,
+        "fora_id": 8,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 221,
         "rodada": 23,
-        "casa_id": 20,
+        "casa_id": 17,
         "fora_id": 1,
         "casa_placar": null,
         "fora_placar": null
@@ -1770,79 +1770,79 @@
     {
         "id": 222,
         "rodada": 23,
-        "casa_id": 19,
-        "fora_id": 2,
+        "casa_id": 16,
+        "fora_id": 18,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 223,
         "rodada": 23,
-        "casa_id": 18,
-        "fora_id": 3,
+        "casa_id": 15,
+        "fora_id": 19,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 224,
         "rodada": 23,
-        "casa_id": 17,
-        "fora_id": 4,
+        "casa_id": 14,
+        "fora_id": 20,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 225,
         "rodada": 23,
-        "casa_id": 16,
-        "fora_id": 5,
+        "casa_id": 13,
+        "fora_id": 2,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 226,
         "rodada": 23,
-        "casa_id": 15,
-        "fora_id": 6,
+        "casa_id": 12,
+        "fora_id": 3,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 227,
         "rodada": 23,
-        "casa_id": 14,
-        "fora_id": 7,
+        "casa_id": 11,
+        "fora_id": 4,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 228,
         "rodada": 23,
-        "casa_id": 13,
-        "fora_id": 8,
+        "casa_id": 10,
+        "fora_id": 5,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 229,
         "rodada": 23,
-        "casa_id": 12,
-        "fora_id": 9,
+        "casa_id": 9,
+        "fora_id": 6,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 230,
         "rodada": 23,
-        "casa_id": 11,
-        "fora_id": 10,
+        "casa_id": 8,
+        "fora_id": 7,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 231,
         "rodada": 24,
-        "casa_id": 20,
+        "casa_id": 16,
         "fora_id": 1,
         "casa_placar": null,
         "fora_placar": null
@@ -1850,79 +1850,79 @@
     {
         "id": 232,
         "rodada": 24,
-        "casa_id": 19,
-        "fora_id": 2,
+        "casa_id": 15,
+        "fora_id": 17,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 233,
         "rodada": 24,
-        "casa_id": 18,
-        "fora_id": 3,
+        "casa_id": 14,
+        "fora_id": 18,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 234,
         "rodada": 24,
-        "casa_id": 17,
-        "fora_id": 4,
+        "casa_id": 13,
+        "fora_id": 19,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 235,
         "rodada": 24,
-        "casa_id": 16,
-        "fora_id": 5,
+        "casa_id": 12,
+        "fora_id": 20,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 236,
         "rodada": 24,
-        "casa_id": 15,
-        "fora_id": 6,
+        "casa_id": 11,
+        "fora_id": 2,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 237,
         "rodada": 24,
-        "casa_id": 14,
-        "fora_id": 7,
+        "casa_id": 10,
+        "fora_id": 3,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 238,
         "rodada": 24,
-        "casa_id": 13,
-        "fora_id": 8,
+        "casa_id": 9,
+        "fora_id": 4,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 239,
         "rodada": 24,
-        "casa_id": 12,
-        "fora_id": 9,
+        "casa_id": 8,
+        "fora_id": 5,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 240,
         "rodada": 24,
-        "casa_id": 11,
-        "fora_id": 10,
+        "casa_id": 7,
+        "fora_id": 6,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 241,
         "rodada": 25,
-        "casa_id": 20,
+        "casa_id": 15,
         "fora_id": 1,
         "casa_placar": null,
         "fora_placar": null
@@ -1930,79 +1930,79 @@
     {
         "id": 242,
         "rodada": 25,
-        "casa_id": 19,
-        "fora_id": 2,
+        "casa_id": 14,
+        "fora_id": 16,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 243,
         "rodada": 25,
-        "casa_id": 18,
-        "fora_id": 3,
+        "casa_id": 13,
+        "fora_id": 17,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 244,
         "rodada": 25,
-        "casa_id": 17,
-        "fora_id": 4,
+        "casa_id": 12,
+        "fora_id": 18,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 245,
         "rodada": 25,
-        "casa_id": 16,
-        "fora_id": 5,
+        "casa_id": 11,
+        "fora_id": 19,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 246,
         "rodada": 25,
-        "casa_id": 15,
-        "fora_id": 6,
+        "casa_id": 10,
+        "fora_id": 20,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 247,
         "rodada": 25,
-        "casa_id": 14,
-        "fora_id": 7,
+        "casa_id": 9,
+        "fora_id": 2,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 248,
         "rodada": 25,
-        "casa_id": 13,
-        "fora_id": 8,
+        "casa_id": 8,
+        "fora_id": 3,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 249,
         "rodada": 25,
-        "casa_id": 12,
-        "fora_id": 9,
+        "casa_id": 7,
+        "fora_id": 4,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 250,
         "rodada": 25,
-        "casa_id": 11,
-        "fora_id": 10,
+        "casa_id": 6,
+        "fora_id": 5,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 251,
         "rodada": 26,
-        "casa_id": 20,
+        "casa_id": 14,
         "fora_id": 1,
         "casa_placar": null,
         "fora_placar": null
@@ -2010,79 +2010,79 @@
     {
         "id": 252,
         "rodada": 26,
-        "casa_id": 19,
-        "fora_id": 2,
+        "casa_id": 13,
+        "fora_id": 15,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 253,
         "rodada": 26,
-        "casa_id": 18,
-        "fora_id": 3,
+        "casa_id": 12,
+        "fora_id": 16,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 254,
         "rodada": 26,
-        "casa_id": 17,
-        "fora_id": 4,
+        "casa_id": 11,
+        "fora_id": 17,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 255,
         "rodada": 26,
-        "casa_id": 16,
-        "fora_id": 5,
+        "casa_id": 10,
+        "fora_id": 18,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 256,
         "rodada": 26,
-        "casa_id": 15,
-        "fora_id": 6,
+        "casa_id": 9,
+        "fora_id": 19,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 257,
         "rodada": 26,
-        "casa_id": 14,
-        "fora_id": 7,
+        "casa_id": 8,
+        "fora_id": 20,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 258,
         "rodada": 26,
-        "casa_id": 13,
-        "fora_id": 8,
+        "casa_id": 7,
+        "fora_id": 2,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 259,
         "rodada": 26,
-        "casa_id": 12,
-        "fora_id": 9,
+        "casa_id": 6,
+        "fora_id": 3,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 260,
         "rodada": 26,
-        "casa_id": 11,
-        "fora_id": 10,
+        "casa_id": 5,
+        "fora_id": 4,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 261,
         "rodada": 27,
-        "casa_id": 20,
+        "casa_id": 13,
         "fora_id": 1,
         "casa_placar": null,
         "fora_placar": null
@@ -2090,79 +2090,79 @@
     {
         "id": 262,
         "rodada": 27,
-        "casa_id": 19,
-        "fora_id": 2,
+        "casa_id": 12,
+        "fora_id": 14,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 263,
         "rodada": 27,
-        "casa_id": 18,
-        "fora_id": 3,
+        "casa_id": 11,
+        "fora_id": 15,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 264,
         "rodada": 27,
-        "casa_id": 17,
-        "fora_id": 4,
+        "casa_id": 10,
+        "fora_id": 16,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 265,
         "rodada": 27,
-        "casa_id": 16,
-        "fora_id": 5,
+        "casa_id": 9,
+        "fora_id": 17,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 266,
         "rodada": 27,
-        "casa_id": 15,
-        "fora_id": 6,
+        "casa_id": 8,
+        "fora_id": 18,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 267,
         "rodada": 27,
-        "casa_id": 14,
-        "fora_id": 7,
+        "casa_id": 7,
+        "fora_id": 19,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 268,
         "rodada": 27,
-        "casa_id": 13,
-        "fora_id": 8,
+        "casa_id": 6,
+        "fora_id": 20,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 269,
         "rodada": 27,
-        "casa_id": 12,
-        "fora_id": 9,
+        "casa_id": 5,
+        "fora_id": 2,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 270,
         "rodada": 27,
-        "casa_id": 11,
-        "fora_id": 10,
+        "casa_id": 4,
+        "fora_id": 3,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 271,
         "rodada": 28,
-        "casa_id": 20,
+        "casa_id": 12,
         "fora_id": 1,
         "casa_placar": null,
         "fora_placar": null
@@ -2170,79 +2170,79 @@
     {
         "id": 272,
         "rodada": 28,
-        "casa_id": 19,
-        "fora_id": 2,
+        "casa_id": 11,
+        "fora_id": 13,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 273,
         "rodada": 28,
-        "casa_id": 18,
-        "fora_id": 3,
+        "casa_id": 10,
+        "fora_id": 14,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 274,
         "rodada": 28,
-        "casa_id": 17,
-        "fora_id": 4,
+        "casa_id": 9,
+        "fora_id": 15,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 275,
         "rodada": 28,
-        "casa_id": 16,
-        "fora_id": 5,
+        "casa_id": 8,
+        "fora_id": 16,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 276,
         "rodada": 28,
-        "casa_id": 15,
-        "fora_id": 6,
+        "casa_id": 7,
+        "fora_id": 17,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 277,
         "rodada": 28,
-        "casa_id": 14,
-        "fora_id": 7,
+        "casa_id": 6,
+        "fora_id": 18,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 278,
         "rodada": 28,
-        "casa_id": 13,
-        "fora_id": 8,
+        "casa_id": 5,
+        "fora_id": 19,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 279,
         "rodada": 28,
-        "casa_id": 12,
-        "fora_id": 9,
+        "casa_id": 4,
+        "fora_id": 20,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 280,
         "rodada": 28,
-        "casa_id": 11,
-        "fora_id": 10,
+        "casa_id": 3,
+        "fora_id": 2,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 281,
         "rodada": 29,
-        "casa_id": 20,
+        "casa_id": 11,
         "fora_id": 1,
         "casa_placar": null,
         "fora_placar": null
@@ -2250,79 +2250,79 @@
     {
         "id": 282,
         "rodada": 29,
-        "casa_id": 19,
-        "fora_id": 2,
+        "casa_id": 10,
+        "fora_id": 12,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 283,
         "rodada": 29,
-        "casa_id": 18,
-        "fora_id": 3,
+        "casa_id": 9,
+        "fora_id": 13,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 284,
         "rodada": 29,
-        "casa_id": 17,
-        "fora_id": 4,
+        "casa_id": 8,
+        "fora_id": 14,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 285,
         "rodada": 29,
-        "casa_id": 16,
-        "fora_id": 5,
+        "casa_id": 7,
+        "fora_id": 15,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 286,
         "rodada": 29,
-        "casa_id": 15,
-        "fora_id": 6,
+        "casa_id": 6,
+        "fora_id": 16,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 287,
         "rodada": 29,
-        "casa_id": 14,
-        "fora_id": 7,
+        "casa_id": 5,
+        "fora_id": 17,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 288,
         "rodada": 29,
-        "casa_id": 13,
-        "fora_id": 8,
+        "casa_id": 4,
+        "fora_id": 18,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 289,
         "rodada": 29,
-        "casa_id": 12,
-        "fora_id": 9,
+        "casa_id": 3,
+        "fora_id": 19,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 290,
         "rodada": 29,
-        "casa_id": 11,
-        "fora_id": 10,
+        "casa_id": 2,
+        "fora_id": 20,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 291,
         "rodada": 30,
-        "casa_id": 20,
+        "casa_id": 10,
         "fora_id": 1,
         "casa_placar": null,
         "fora_placar": null
@@ -2330,79 +2330,79 @@
     {
         "id": 292,
         "rodada": 30,
-        "casa_id": 19,
-        "fora_id": 2,
+        "casa_id": 9,
+        "fora_id": 11,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 293,
         "rodada": 30,
-        "casa_id": 18,
-        "fora_id": 3,
+        "casa_id": 8,
+        "fora_id": 12,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 294,
         "rodada": 30,
-        "casa_id": 17,
-        "fora_id": 4,
+        "casa_id": 7,
+        "fora_id": 13,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 295,
         "rodada": 30,
-        "casa_id": 16,
-        "fora_id": 5,
+        "casa_id": 6,
+        "fora_id": 14,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 296,
         "rodada": 30,
-        "casa_id": 15,
-        "fora_id": 6,
+        "casa_id": 5,
+        "fora_id": 15,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 297,
         "rodada": 30,
-        "casa_id": 14,
-        "fora_id": 7,
+        "casa_id": 4,
+        "fora_id": 16,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 298,
         "rodada": 30,
-        "casa_id": 13,
-        "fora_id": 8,
+        "casa_id": 3,
+        "fora_id": 17,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 299,
         "rodada": 30,
-        "casa_id": 12,
-        "fora_id": 9,
+        "casa_id": 2,
+        "fora_id": 18,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 300,
         "rodada": 30,
-        "casa_id": 11,
-        "fora_id": 10,
+        "casa_id": 20,
+        "fora_id": 19,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 301,
         "rodada": 31,
-        "casa_id": 20,
+        "casa_id": 9,
         "fora_id": 1,
         "casa_placar": null,
         "fora_placar": null
@@ -2410,79 +2410,79 @@
     {
         "id": 302,
         "rodada": 31,
-        "casa_id": 19,
-        "fora_id": 2,
+        "casa_id": 8,
+        "fora_id": 10,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 303,
         "rodada": 31,
-        "casa_id": 18,
-        "fora_id": 3,
+        "casa_id": 7,
+        "fora_id": 11,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 304,
         "rodada": 31,
-        "casa_id": 17,
-        "fora_id": 4,
+        "casa_id": 6,
+        "fora_id": 12,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 305,
         "rodada": 31,
-        "casa_id": 16,
-        "fora_id": 5,
+        "casa_id": 5,
+        "fora_id": 13,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 306,
         "rodada": 31,
-        "casa_id": 15,
-        "fora_id": 6,
+        "casa_id": 4,
+        "fora_id": 14,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 307,
         "rodada": 31,
-        "casa_id": 14,
-        "fora_id": 7,
+        "casa_id": 3,
+        "fora_id": 15,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 308,
         "rodada": 31,
-        "casa_id": 13,
-        "fora_id": 8,
+        "casa_id": 2,
+        "fora_id": 16,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 309,
         "rodada": 31,
-        "casa_id": 12,
-        "fora_id": 9,
+        "casa_id": 20,
+        "fora_id": 17,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 310,
         "rodada": 31,
-        "casa_id": 11,
-        "fora_id": 10,
+        "casa_id": 19,
+        "fora_id": 18,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 311,
         "rodada": 32,
-        "casa_id": 20,
+        "casa_id": 8,
         "fora_id": 1,
         "casa_placar": null,
         "fora_placar": null
@@ -2490,79 +2490,79 @@
     {
         "id": 312,
         "rodada": 32,
-        "casa_id": 19,
-        "fora_id": 2,
+        "casa_id": 7,
+        "fora_id": 9,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 313,
         "rodada": 32,
-        "casa_id": 18,
-        "fora_id": 3,
+        "casa_id": 6,
+        "fora_id": 10,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 314,
         "rodada": 32,
-        "casa_id": 17,
-        "fora_id": 4,
+        "casa_id": 5,
+        "fora_id": 11,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 315,
         "rodada": 32,
-        "casa_id": 16,
-        "fora_id": 5,
+        "casa_id": 4,
+        "fora_id": 12,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 316,
         "rodada": 32,
-        "casa_id": 15,
-        "fora_id": 6,
+        "casa_id": 3,
+        "fora_id": 13,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 317,
         "rodada": 32,
-        "casa_id": 14,
-        "fora_id": 7,
+        "casa_id": 2,
+        "fora_id": 14,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 318,
         "rodada": 32,
-        "casa_id": 13,
-        "fora_id": 8,
+        "casa_id": 20,
+        "fora_id": 15,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 319,
         "rodada": 32,
-        "casa_id": 12,
-        "fora_id": 9,
+        "casa_id": 19,
+        "fora_id": 16,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 320,
         "rodada": 32,
-        "casa_id": 11,
-        "fora_id": 10,
+        "casa_id": 18,
+        "fora_id": 17,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 321,
         "rodada": 33,
-        "casa_id": 20,
+        "casa_id": 7,
         "fora_id": 1,
         "casa_placar": null,
         "fora_placar": null
@@ -2570,79 +2570,79 @@
     {
         "id": 322,
         "rodada": 33,
-        "casa_id": 19,
-        "fora_id": 2,
+        "casa_id": 6,
+        "fora_id": 8,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 323,
         "rodada": 33,
-        "casa_id": 18,
-        "fora_id": 3,
+        "casa_id": 5,
+        "fora_id": 9,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 324,
         "rodada": 33,
-        "casa_id": 17,
-        "fora_id": 4,
+        "casa_id": 4,
+        "fora_id": 10,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 325,
         "rodada": 33,
-        "casa_id": 16,
-        "fora_id": 5,
+        "casa_id": 3,
+        "fora_id": 11,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 326,
         "rodada": 33,
-        "casa_id": 15,
-        "fora_id": 6,
+        "casa_id": 2,
+        "fora_id": 12,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 327,
         "rodada": 33,
-        "casa_id": 14,
-        "fora_id": 7,
+        "casa_id": 20,
+        "fora_id": 13,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 328,
         "rodada": 33,
-        "casa_id": 13,
-        "fora_id": 8,
+        "casa_id": 19,
+        "fora_id": 14,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 329,
         "rodada": 33,
-        "casa_id": 12,
-        "fora_id": 9,
+        "casa_id": 18,
+        "fora_id": 15,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 330,
         "rodada": 33,
-        "casa_id": 11,
-        "fora_id": 10,
+        "casa_id": 17,
+        "fora_id": 16,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 331,
         "rodada": 34,
-        "casa_id": 20,
+        "casa_id": 6,
         "fora_id": 1,
         "casa_placar": null,
         "fora_placar": null
@@ -2650,79 +2650,79 @@
     {
         "id": 332,
         "rodada": 34,
-        "casa_id": 19,
-        "fora_id": 2,
+        "casa_id": 5,
+        "fora_id": 7,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 333,
         "rodada": 34,
-        "casa_id": 18,
-        "fora_id": 3,
+        "casa_id": 4,
+        "fora_id": 8,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 334,
         "rodada": 34,
-        "casa_id": 17,
-        "fora_id": 4,
+        "casa_id": 3,
+        "fora_id": 9,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 335,
         "rodada": 34,
-        "casa_id": 16,
-        "fora_id": 5,
+        "casa_id": 2,
+        "fora_id": 10,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 336,
         "rodada": 34,
-        "casa_id": 15,
-        "fora_id": 6,
+        "casa_id": 20,
+        "fora_id": 11,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 337,
         "rodada": 34,
-        "casa_id": 14,
-        "fora_id": 7,
+        "casa_id": 19,
+        "fora_id": 12,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 338,
         "rodada": 34,
-        "casa_id": 13,
-        "fora_id": 8,
+        "casa_id": 18,
+        "fora_id": 13,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 339,
         "rodada": 34,
-        "casa_id": 12,
-        "fora_id": 9,
+        "casa_id": 17,
+        "fora_id": 14,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 340,
         "rodada": 34,
-        "casa_id": 11,
-        "fora_id": 10,
+        "casa_id": 16,
+        "fora_id": 15,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 341,
         "rodada": 35,
-        "casa_id": 20,
+        "casa_id": 5,
         "fora_id": 1,
         "casa_placar": null,
         "fora_placar": null
@@ -2730,79 +2730,79 @@
     {
         "id": 342,
         "rodada": 35,
-        "casa_id": 19,
-        "fora_id": 2,
+        "casa_id": 4,
+        "fora_id": 6,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 343,
         "rodada": 35,
-        "casa_id": 18,
-        "fora_id": 3,
+        "casa_id": 3,
+        "fora_id": 7,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 344,
         "rodada": 35,
-        "casa_id": 17,
-        "fora_id": 4,
+        "casa_id": 2,
+        "fora_id": 8,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 345,
         "rodada": 35,
-        "casa_id": 16,
-        "fora_id": 5,
+        "casa_id": 20,
+        "fora_id": 9,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 346,
         "rodada": 35,
-        "casa_id": 15,
-        "fora_id": 6,
+        "casa_id": 19,
+        "fora_id": 10,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 347,
         "rodada": 35,
-        "casa_id": 14,
-        "fora_id": 7,
+        "casa_id": 18,
+        "fora_id": 11,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 348,
         "rodada": 35,
-        "casa_id": 13,
-        "fora_id": 8,
+        "casa_id": 17,
+        "fora_id": 12,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 349,
         "rodada": 35,
-        "casa_id": 12,
-        "fora_id": 9,
+        "casa_id": 16,
+        "fora_id": 13,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 350,
         "rodada": 35,
-        "casa_id": 11,
-        "fora_id": 10,
+        "casa_id": 15,
+        "fora_id": 14,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 351,
         "rodada": 36,
-        "casa_id": 20,
+        "casa_id": 4,
         "fora_id": 1,
         "casa_placar": null,
         "fora_placar": null
@@ -2810,79 +2810,79 @@
     {
         "id": 352,
         "rodada": 36,
-        "casa_id": 19,
-        "fora_id": 2,
+        "casa_id": 3,
+        "fora_id": 5,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 353,
         "rodada": 36,
-        "casa_id": 18,
-        "fora_id": 3,
+        "casa_id": 2,
+        "fora_id": 6,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 354,
         "rodada": 36,
-        "casa_id": 17,
-        "fora_id": 4,
+        "casa_id": 20,
+        "fora_id": 7,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 355,
         "rodada": 36,
-        "casa_id": 16,
-        "fora_id": 5,
+        "casa_id": 19,
+        "fora_id": 8,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 356,
         "rodada": 36,
-        "casa_id": 15,
-        "fora_id": 6,
+        "casa_id": 18,
+        "fora_id": 9,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 357,
         "rodada": 36,
-        "casa_id": 14,
-        "fora_id": 7,
+        "casa_id": 17,
+        "fora_id": 10,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 358,
         "rodada": 36,
-        "casa_id": 13,
-        "fora_id": 8,
+        "casa_id": 16,
+        "fora_id": 11,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 359,
         "rodada": 36,
-        "casa_id": 12,
-        "fora_id": 9,
+        "casa_id": 15,
+        "fora_id": 12,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 360,
         "rodada": 36,
-        "casa_id": 11,
-        "fora_id": 10,
+        "casa_id": 14,
+        "fora_id": 13,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 361,
         "rodada": 37,
-        "casa_id": 20,
+        "casa_id": 3,
         "fora_id": 1,
         "casa_placar": null,
         "fora_placar": null
@@ -2890,79 +2890,79 @@
     {
         "id": 362,
         "rodada": 37,
-        "casa_id": 19,
-        "fora_id": 2,
+        "casa_id": 2,
+        "fora_id": 4,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 363,
         "rodada": 37,
-        "casa_id": 18,
-        "fora_id": 3,
+        "casa_id": 20,
+        "fora_id": 5,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 364,
         "rodada": 37,
-        "casa_id": 17,
-        "fora_id": 4,
+        "casa_id": 19,
+        "fora_id": 6,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 365,
         "rodada": 37,
-        "casa_id": 16,
-        "fora_id": 5,
+        "casa_id": 18,
+        "fora_id": 7,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 366,
         "rodada": 37,
-        "casa_id": 15,
-        "fora_id": 6,
+        "casa_id": 17,
+        "fora_id": 8,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 367,
         "rodada": 37,
-        "casa_id": 14,
-        "fora_id": 7,
+        "casa_id": 16,
+        "fora_id": 9,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 368,
         "rodada": 37,
-        "casa_id": 13,
-        "fora_id": 8,
+        "casa_id": 15,
+        "fora_id": 10,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 369,
         "rodada": 37,
-        "casa_id": 12,
-        "fora_id": 9,
+        "casa_id": 14,
+        "fora_id": 11,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 370,
         "rodada": 37,
-        "casa_id": 11,
-        "fora_id": 10,
+        "casa_id": 13,
+        "fora_id": 12,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 371,
         "rodada": 38,
-        "casa_id": 20,
+        "casa_id": 2,
         "fora_id": 1,
         "casa_placar": null,
         "fora_placar": null
@@ -2970,72 +2970,72 @@
     {
         "id": 372,
         "rodada": 38,
-        "casa_id": 19,
-        "fora_id": 2,
+        "casa_id": 20,
+        "fora_id": 3,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 373,
         "rodada": 38,
-        "casa_id": 18,
-        "fora_id": 3,
+        "casa_id": 19,
+        "fora_id": 4,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 374,
         "rodada": 38,
-        "casa_id": 17,
-        "fora_id": 4,
+        "casa_id": 18,
+        "fora_id": 5,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 375,
         "rodada": 38,
-        "casa_id": 16,
-        "fora_id": 5,
+        "casa_id": 17,
+        "fora_id": 6,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 376,
         "rodada": 38,
-        "casa_id": 15,
-        "fora_id": 6,
+        "casa_id": 16,
+        "fora_id": 7,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 377,
         "rodada": 38,
-        "casa_id": 14,
-        "fora_id": 7,
+        "casa_id": 15,
+        "fora_id": 8,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 378,
         "rodada": 38,
-        "casa_id": 13,
-        "fora_id": 8,
+        "casa_id": 14,
+        "fora_id": 9,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 379,
         "rodada": 38,
-        "casa_id": 12,
-        "fora_id": 9,
+        "casa_id": 13,
+        "fora_id": 10,
         "casa_placar": null,
         "fora_placar": null
     },
     {
         "id": 380,
         "rodada": 38,
-        "casa_id": 11,
-        "fora_id": 10,
+        "casa_id": 12,
+        "fora_id": 11,
         "casa_placar": null,
         "fora_placar": null
     }

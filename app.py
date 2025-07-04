@@ -1,12 +1,9 @@
-# app.py
-
-import os # Mantém este import pois é usado por os.path.join
-from bottle import Bottle, redirect, static_file, TEMPLATES # Remove 'sys' se não for mais usado
-
+import os 
+from bottle import Bottle, redirect, static_file, TEMPLATES 
 from config import Config
-
 from controllers.campeonato_controller import campeonato_app
 from controllers.user_controller import user_app, auth_app
+from controllers.simular_controller import simular_app
 
 class App:
     def __init__(self):
@@ -19,6 +16,7 @@ class App:
         self.bottle.mount('/campeonato', campeonato_app)
         self.bottle.mount('/users', user_app)
         self.bottle.mount('/auth', auth_app)
+        self.bottle.mount('/simular', simular_app)
         
         # Rota para servir arquivos estáticos (sem os prints de debug)
         @self.bottle.route('/static/<filepath:path>')
