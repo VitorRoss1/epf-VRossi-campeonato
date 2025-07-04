@@ -29,6 +29,7 @@ body {
   background-color: #f4f4f4; /* Novo background-color */
   color: #333; /* Nova cor de texto padrão */
   padding: 20px;
+  padding-top: 70px; /* Espaço para a navbar fixa */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
