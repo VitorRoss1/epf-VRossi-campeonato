@@ -1,4 +1,4 @@
-# Projeto Template: POO com Python + Bottle + JSON
+# Projeto Template: POO com Python + Bottle + JSON CAMPEONATO BRASILEIRO 25
 
 Este é um projeto de template educacional voltado para o ensino de **Programação Orientada a Objetos (POO)** do Prof. Lucas Boaventura, Universidade de Brasília (UnB).
 
@@ -13,19 +13,55 @@ Fornecer uma base simples, extensível e didática para construção de aplicaç
 ## 🗂 Estrutura de Pastas
 
 ```bash
-poo-python-bottle-template/
-├── app.py # Ponto de entrada do sistema
-├── config.py # Configurações e caminhos do projeto
-├── main.py # Inicialização da aplicação
-├── requirements.txt # Dependências do projeto
-├── README.md # Este arquivo
-├── controllers/ # Controladores e rotas
-├── models/ # Definição das entidades (ex: User)
-├── services/ # Lógica de persistência (JSON)
-├── views/ # Arquivos HTML (Bottle Templating)
-├── static/ # CSS, JS e imagens
-├── data/ # Arquivos JSON de dados
-└── .vscode/ # Configurações opcionais do VS Code
+campeonato/
+├── app.py
+├── config.py
+├── main.py
+├── requirements.txt
+├── README.md
+├── controllers/
+│   ├── __init__.py
+│   ├── campeonato_controller.py
+│   ├── simular_controller.py
+│   └── user_controller.py
+├── models/
+│   ├── __init__.py
+│   ├── jogador.py
+│   ├── partida.py
+│   ├── time.py
+│   └── user.py
+├── services/
+│   ├── __init__.py
+│   ├── campeonato_service.py
+│   └── user_service.py
+├── views/
+│   ├── auth/
+│   │   ├── login.tpl
+│   │   └── register.tpl
+│   ├── campeonato/
+│   │   ├── rodada.tpl
+│   │   ├── tabela.tpl
+│   │   └── time.tpl
+│   ├── user/
+│   │   ├── form.tpl
+│   │   └── list.tpl
+│   ├── layout.tpl
+│   └── protected.tpl
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   ├── img/
+│   │   ├── bah.png
+│   │   ├── bot.png
+│   │   └── ... (outros escudos)
+│   └── js/
+│       └── main.js
+├── data/
+│   ├── partidas.json
+│   ├── times.json
+│   └── users.json
+└── .vscode/
+    └── settings.json
 ```
 
 
@@ -80,7 +116,7 @@ pip install -r requirements.txt
 
 3. Rode a aplicação:
 ```bash
-python main.py
+python3 main.py
 ```
 
 4. Accese sua aplicação no navegador em: [http://localhost:8080](http://localhost:8080)
@@ -101,5 +137,6 @@ Para adicionar novos modelos (ex: Atividades):
 ---
 
 ## 🧠 Autor e Licença
+vítor da costa rossi de oliveira - 242015352
 Projeto desenvolvido como template didático para disciplinas de Programação Orientada a Objetos, baseado no [BMVC](https://github.com/hgmachine/bmvc_start_from_this).
 Você pode reutilizar, modificar e compartilhar livremente.
