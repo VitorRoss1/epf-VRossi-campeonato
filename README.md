@@ -61,6 +61,60 @@ campeonato/
     └── settings.json
 ```
 
+OO-EPF-CAMPEONATO
+
+‘->’ : no meu projeto..
+ 
+1. Aplicação Web em Python com Bottle
+    * Estrutura MVC (Model-View-Controller)
+    * Persistência de dados (JSON, SQLite ou outro banco simples)
+    * ->JSON
+2. Modelagem de Dados
+    * Pelo menos duas classes principais (models) além de uma classe Usuário
+    * Implementação dos 4 pilares de OO: Abstração, Encapsulamento, Herança e Polimorfismo
+
+-> Abstração (ocultar detalhes de implementação complexos e exibir apenas as funcionalidades essenciais de um sistema)
+Classes model/time e model/partida e model/jogador focam apenas o que é relevante para o propósito de um campeonato virtual e nao nas complexidades reais desses conceitos. 
+->Encapsulamento
+`_stats` em model/time
+->Herança
+` jogadorGoleiro/linha de jogador` em model/jogador
+->Polimorfismo
+A classe `JogadorGoleiro` sobrescreve `JogadorLinha `(subclasses de jogador em model/jogador) 
+
+
+1. Autenticação de Usuários
+    * A aplicação deverá gerenciar o cadastro de usuários com acesso à funções exclusivas, além das funcionalidades públicas da aplicação.
+    * Sistema de cadastro/login
+2. Interface Web
+    * Layout customizado além do básico (usando CSS/Bootstrap/Materialize)
+    * -> Bootstrap 5.3.3 e CSS customizado (style.css)
+3. Documentação
+    * README.md contendo:
+        * Descrição da solução e funcionalidades
+        * Diagrama de classes (Sugestão: draw.io)
+        * ->
+        * ￼<img width="532" alt="Captura de Tela 2025-07-06 às 20 01 51" src="https://github.com/user-attachments/assets/b6fda394-8b4d-4d93-bb0e-a22853e8d2e0" />
+
+        * Instruções de instalação/execução
+    * 
+Requisitos para Pontuação Extra
+
+1. Relações entre Models
+    * Associações entre models (1-1, 1-N, N-N)
+    * Implementação de composição/agregação nas models
+    * -> 1-n (time->jogadores, partida->times)
+2. Sistema de Permissões
+    * Gerência de níveis de permissão por tipo de usuário (usuário, regular, usuário admin, etc) 
+    * -> X
+3. Bibliotecas Adicionais
+    * Uso de libs adicionais além do bottle
+    * -> Json ,bootstrap 5.3.3
+4. Qualidade do Projeto
+    * Relevância do tema
+    * Criatividade na solução
+    * Código bem organizado e documentado
+    * Tratamento de erros
 
 ---
 
