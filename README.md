@@ -42,9 +42,6 @@ campeonato/
 │   │   ├── rodada.tpl
 │   │   ├── tabela.tpl
 │   │   └── time.tpl
-│   ├── user/
-│   │   ├── form.tpl
-│   │   └── list.tpl
 │   ├── layout.tpl
 │   └── protected.tpl
 ├── static/
