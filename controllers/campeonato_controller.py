@@ -14,13 +14,7 @@ def tabela():
 @campeonato_app.route('/rodada/<rodada:int>')
 def rodada(rodada):
     partidas = campeonato_service.get_partidas_rodada(rodada)
-    # A view 'rodada.tpl' não terá mais o botão de salvar placares.
-    # Ela será apenas para visualização.
     return template('campeonato/rodada.tpl', rodada=rodada, partidas=partidas, user_service=user_service)
-
-# ROTA /enviar-placares FOI REMOVIDA DAQUI.
-# A submissão de placares para o campeonato real será feita SOMENTE pela rota de simulação.
-
 
 @campeonato_app.route('/time/<time_id:int>')
 def time(time_id):

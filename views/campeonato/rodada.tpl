@@ -9,13 +9,12 @@
         </div>
         
         <div class="col-md-2 text-center">
-            {# Placar exibido, sem campos editáveis #}
             <h5 class="mb-0">
                 {{partida.casa_placar if partida.casa_placar is not None else '-'}} 
                 x 
                 {{partida.fora_placar if partida.fora_placar is not None else '-'}}
             </h5>
-        </div>
+        </div> 
         
         <div class="col-md-5">
             <img src="/static/img/{{partida.fora.img_path}}" alt="{{partida.fora.nome}}" width="40" height="40"> 
@@ -29,20 +28,19 @@
     <div class="card-header bg-primary text-white">
         <div class="d-flex justify-content-between align-items-center">
             <h2 class="mb-0">
-                <i class="fas fa-calendar-alt me-2"></i>
+                </i>
                 Rodada {{rodada}}
             </h2>
             <a href="/campeonato" class="btn btn-light btn-sm">
-                <i class="fas fa-arrow-left me-1"></i> Voltar à Tabela
+                </i> Voltar à Tabela
             </a>
         </div>
     </div>
     
     <div class="card-body">
-        {# NÃO HÁ MAIS FORMULÁRIO DE SALVAR PLACARES AQUI #}
         % for partida in partidas:
         <div class="mb-4">
-            {{ match_card(partida, editable=False) }} {# Sempre false, pois não edita aqui #}
+            {{ match_card(partida, editable=False) }} 
         </div>
         % end
     </div>

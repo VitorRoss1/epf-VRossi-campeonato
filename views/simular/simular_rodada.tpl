@@ -31,7 +31,7 @@
         <div class="col-md-5">
             <img src="/static/img/{{partida.fora.img_path}}" alt="{{partida.fora.nome}}" width="40" height="40">
             <strong>{{partida.fora.sigla}}</strong>
-        </div>
+        </div> 
     </div>
 </div>
 % end
@@ -39,7 +39,7 @@
 <div class="card">
     <div class="card-header bg-primary text-white">
         <div class="d-flex justify-content-between align-items-center">
-            <h2 class="mb-0"><i class="fas fa-edit me-2"></i>Registrar Placares da Rodada {{rodada_atual}}</h2> {# Título alterado #}
+            <h2 class="mb-0"></i>Registrar Placares da Rodada {{rodada_atual}}</h2> 
             <select class="form-select w-auto" onchange="window.location.href='/simular/' + this.value">
                 % for r in range(1, max_rodada + 1):
                 <option value="{{r}}" {{'selected' if r == rodada_atual else ''}}>Rodada {{r}}</option>
@@ -63,7 +63,7 @@
             
             <div class="d-grid mt-4">
                 <button type="submit" class="btn btn-success btn-lg">
-                    <i class="fas fa-save me-2"></i> Salvar Placares desta Rodada
+                    </i> Salvar Placares desta Rodada
                 </button>
             </div>
         </form>

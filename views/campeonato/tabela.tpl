@@ -22,10 +22,9 @@
 </tr>
 % end
 
-
-% def login_required_alert(message="Faça login para acessar este recurso"):
+% def login_required_alert(message="Faça login para acessar"):
 <div class="alert alert-warning mt-3">
-    <i class="fas fa-exclamation-circle me-2"></i>
+    </i>
     {{message}}
     <a href="/auth/login" class="alert-link ms-2">Clique aqui para fazer login</a>
 </div>
@@ -33,7 +32,7 @@
 
 <div class="card">
     <div class="card-header bg-primary text-white">
-        <h2><i class="fas fa-trophy me-2"></i>Classificação</h2>
+        </i>Classificação</h2>
     </div>
     
     <div class="card-body">

@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"> {# fixed-top para fixar a barra #}
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">    
         <div class="container-fluid">
             <a class="navbar-brand" href="/campeonato">
-                <i class="fas fa-futbol"></i> Brasileirão 2025
+                </i> Brasileirão 2025 
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -23,17 +23,15 @@
                         <a class="nav-link" href="/campeonato">Tabela</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/simular">Simular Rodada</a> {# NOVO: Link para Simular Rodada #}
+                        <a class="nav-link" href="/simular">Simular Rodada</a> 
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto">
                     % current_user = user_service.get_current_user()
                     % if current_user:
                     <li class="nav-item">
-                        <span class="nav-link">Bem-vindo, {{current_user['name']}}!</span>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/users">Gerenciar Usuários</a>
+                       
+                    
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/auth/logout">Sair</a>
@@ -52,7 +50,7 @@
     </nav>
 
     <div class="container">
-        {{!base}} {# Renderiza o conteúdo do template filho #}
+        {{!base}} 
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

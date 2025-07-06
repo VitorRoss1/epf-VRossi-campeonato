@@ -2,7 +2,7 @@
 
 % def tabela_row(time, posicao, current_user=None):
 <tr class=""> 
-    <td>{{posicao}}</td>
+    <td>{{posicao}}</td> 
     <td>
         <a href="/campeonato/time/{{time.id}}" class="text-decoration-none">
             <img src="/static/img/{{time.img_path}}" alt="{{time.nome}}" width="30" height="30" class="me-2">
@@ -60,7 +60,7 @@
 
 <div class="card mb-4">
     <div class="card-header bg-primary text-white">
-        <h2><i class="fas fa-poll me-2"></i>Resultados da Simulação - Rodada {{rodada_simulada}}</h2>
+        <h2></i>Resultados da Simulação - Rodada {{rodada_simulada}}</h2>
     </div>
     <div class="card-body">
         <h3 class="mb-3">Partidas Simuladas:</h3>
@@ -95,10 +95,10 @@
         </div>
         <div class="d-grid mt-4">
             <a href="/simular/{{rodada_simulada + 1 if rodada_simulada < campeonato_service.get_current_rodada() else rodada_simulada}}" class="btn btn-primary btn-lg">
-                <i class="fas fa-arrow-right me-2"></i> Próxima Rodada
+                </i> Próxima Rodada
             </a>
             <a href="/simular" class="btn btn-secondary btn-lg mt-2">
-                <i class="fas fa-redo me-2"></i> Nova Simulação
+                </i> Nova Simulação
             </a>
         </div>
     </div>

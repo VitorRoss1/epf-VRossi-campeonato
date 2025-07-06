@@ -30,7 +30,7 @@ def enviar_placares_simulacao():
     for partida in partidas_rodada:
         casa_gols = int(request.forms.get(f'casa_{partida.id}'))
         fora_gols = int(request.forms.get(f'fora_{partida.id}'))
-        # AQUI É CHAMADO o método do serviço que agora inclui o recarregamento
+        
         campeonato_service.definir_placar(partida.id, casa_gols, fora_gols) 
     
     # Redireciona para a tabela principal após o salvamento para que o usuário veja a atualização
