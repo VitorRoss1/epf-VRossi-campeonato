@@ -1,4 +1,4 @@
-% rebase('layout', title=f'Simular Rodada {rodada_atual}')
+% rebase('layout', title=f'Registrar Placares da Rodada {rodada_atual}')
 
 % def match_card(partida, editable=False):
 <div class="match-card mb-3 p-3 border rounded">
@@ -39,7 +39,7 @@
 <div class="card">
     <div class="card-header bg-primary text-white">
         <div class="d-flex justify-content-between align-items-center">
-            <h2 class="mb-0"><i class="fas fa-calculator me-2"></i>Simular Rodada</h2>
+            <h2 class="mb-0"><i class="fas fa-edit me-2"></i>Registrar Placares da Rodada {{rodada_atual}}</h2> {# Título alterado #}
             <select class="form-select w-auto" onchange="window.location.href='/simular/' + this.value">
                 % for r in range(1, max_rodada + 1):
                 <option value="{{r}}" {{'selected' if r == rodada_atual else ''}}>Rodada {{r}}</option>
@@ -63,7 +63,7 @@
             
             <div class="d-grid mt-4">
                 <button type="submit" class="btn btn-success btn-lg">
-                    <i class="fas fa-play me-2"></i> Simular Rodada
+                    <i class="fas fa-save me-2"></i> Salvar Placares desta Rodada
                 </button>
             </div>
         </form>

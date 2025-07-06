@@ -15,7 +15,7 @@
     "jogadores": [
       {
         "id": 1,
-        "nome": "Luiz Araújo",
+        "nome": "Luiz Araujo",
         "numero": 7,
         "posicao": "Atacante"
       },
@@ -43,7 +43,7 @@
     "jogadores": [
       {
         "id": 3,
-        "nome": "Maurício",
+        "nome": "Mauricio",
         "numero": 18,
         "posicao": "Atacante"
       },
@@ -57,7 +57,7 @@
   },
   {
     "id": 3,
-    "nome": "Atlético Mineiro",
+    "nome": "Atletico Mineiro",
     "sigla": "CAM",
     "img_path": "cam.png",
     "stats": {
@@ -99,7 +99,7 @@
     "jogadores": [
       {
         "id": 7,
-        "nome": "Germán Cano",
+        "nome": "German Cano",
         "numero": 14,
         "posicao": "Atacante"
       },
@@ -113,7 +113,7 @@
   },
   {
     "id": 5,
-    "nome": "São Paulo",
+    "nome": "Sao Paulo",
     "sigla": "SAO",
     "img_path": "sao.png",
     "stats": {
@@ -169,7 +169,7 @@
   },
   {
     "id": 7,
-    "nome": "Grêmio",
+    "nome": "Gremio",
     "sigla": "GRE",
     "img_path": "gre.png",
     "stats": {
@@ -309,7 +309,7 @@
   },
   {
     "id": 12,
-    "nome": "Ceará",
+    "nome": "Ceara",
     "sigla": "CEA",
     "img_path": "cea.png",
     "stats": {
@@ -463,7 +463,7 @@
     "jogadores": [
       {
         "id": 33,
-        "nome": "Wiliam Arão",
+        "nome": "Wiliam Arao",
         "numero": 8,
         "posicao": "Atacante"
       },
@@ -505,7 +505,7 @@
   },
   {
     "id": 19,
-    "nome": "Vitória",
+    "nome": "Vitoria",
     "sigla": "VIT",
     "img_path": "vit.png",
     "stats": {
