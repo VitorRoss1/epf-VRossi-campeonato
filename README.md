@@ -127,34 +127,69 @@ Requisitos para Pontuação Extra
 
 ## 📁 Descrição das Pastas
 
-### `controllers/`
-Contém as classes responsáveis por lidar com as rotas da aplicação. Exemplos:
-- `user_controller.py`: rotas para listagem, adição, edição e remoção de usuários.
-- `base_controller.py`: classe base com utilitários comuns.
+controllers/
 
-### `models/`
-Define as classes que representam os dados da aplicação. Exemplo:
-- `user.py`: classe `User`, com atributos como `id`, `name`, `email`, etc.
+Essa pasta tem as classes que cuidam das rotas do seu site. Elas recebem o que o usuário faz, conversam com a lógica do programa e decidem qual página mostrar.
 
-### `services/`
-Responsável por salvar, carregar e manipular dados usando arquivos JSON. Exemplo:
-- `user_service.py`: contém métodos como `get_all`, `add_user`, `delete_user`.
+campeonato_controller.py: Gerencia as páginas da tabela, das rodadas e dos detalhes dos times.
 
-### `views/`
-Contém os arquivos `.tpl` utilizados pelo Bottle como páginas HTML:
-- `layout.tpl`: estrutura base com navegação e bloco `content`.
-- `users.tpl`: lista os usuários.
-- `user_form.tpl`: formulário para adicionar/editar usuário.
+simular_controller.py: É onde você registra os placares das rodadas. Ele salva tudo no campeonato de verdade, mostrando o placar acumulado.
 
-### `static/`
-Arquivos estáticos como:
-- `css/style.css`: estilos básicos.
-- `js/main.js`: scripts JS opcionais.
-- `img/BottleLogo.png`: exemplo de imagem.
+user_controller.py: Cuida das rotas de login, cadastro e, se você mantiver, do gerenciamento de usuários.
 
-### `data/`
-Armazena os arquivos `.json` que simulam o banco de dados:
-- `users.json`: onde os dados dos usuários são persistidos.
+models/
+
+Aqui ficam as classes que representam os dados do seu aplicativo e a lógica por trás deles. Elas são a "essência" do que seu programa entende.
+
+time.py: Define o Time, com nome, escudo e estatísticas acumuladas.
+
+partida.py: Representa uma Partida de futebol, com os times e os placares.
+
+jogador.py: Define os Jogadores, incluindo suas posições (atacante, goleiro, etc.).
+
+user.py: Define o Usuário que acessa o sistema.
+
+item_campeonato_base.py: Contém a classe abstrata para itens do campeonato, garantindo que tenham um ID.
+
+services/
+
+Essa pasta tem a lógica pra salvar, carregar e trabalhar com seus dados, que ficam em arquivos JSON. É o lugar onde as regras do jogo e do sistema são aplicadas.
+
+campeonato_service.py: É o coração do campeonato. Ele carrega e salva os times e partidas, e calcula todas as estatísticas acumuladas.
+
+user_service.py: Cuida do login, cadastro e autenticação dos usuários.
+
+views/
+
+Nessa pasta, você encontra todos os arquivos .tpl. São os templates HTML que o Bottle usa pra montar as páginas que o usuário vê.
+
+layout.tpl: É a base de todas as páginas, com o menu de navegação e o cabeçalho.
+
+campeonato/: Tem as páginas específicas do campeonato, como a tabela (tabela.tpl) e os detalhes das rodadas (rodada.tpl) e dos times (time.tpl).
+
+simular/: Tem a página pra registrar os placares (simular_rodada.tpl).
+
+auth/: Tem as páginas de login (login.tpl) e cadastro (register.tpl).
+
+static/
+
+Essa é a pasta pra arquivos que o navegador consegue usar diretamente, como estilos CSS, códigos JavaScript e imagens.
+
+css/: Guarda seus arquivos CSS, como style.css.
+
+img/: Tem as imagens dos escudos dos times (ex: fla.png, pal.png).
+
+js/: Onde você pode adicionar scripts JS.
+
+data/
+
+Aqui ficam os arquivos .json que funcionam como o banco de dados do seu projeto. É onde todas as informações do campeonato são guardadas de forma persistente.
+
+times.json: Guarda os dados dos times e suas estatísticas.
+
+partidas.json: Guarda todos os jogos e seus placares.
+
+users.json: Guarda os dados dos usuários cadastrados.
 
 ---
 
