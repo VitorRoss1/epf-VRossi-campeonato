@@ -75,10 +75,16 @@ OO-EPF-CAMPEONATO
 
 -> Abstração (ocultar detalhes de implementação complexos e exibir apenas as funcionalidades essenciais de um sistema)
 Classes model/time e model/partida e model/jogador focam apenas o que é relevante para o propósito de um campeonato virtual e nao nas complexidades reais desses conceitos. 
+
+
 ->Encapsulamento
 `_stats` em model/time
+
+
 ->Herança
 ` jogadorGoleiro/linha de jogador` em model/jogador
+
+
 ->Polimorfismo
 A classe `JogadorGoleiro` sobrescreve `JogadorLinha `(subclasses de jogador em model/jogador) 
 
