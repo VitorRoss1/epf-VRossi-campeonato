@@ -13,7 +13,6 @@ auth_app = Bottle()
 @user_service.login_required
 def list_users():
     users = user_service.get_all_users()
-    # CORREÇÃO: Passe user_service aqui
     return template('user/list.tpl', users=users, user_service=user_service) 
 
 @user_app.route('/add', method=['GET', 'POST'])
@@ -28,20 +27,20 @@ def add_user():
             )
             return redirect('/users')
         except ValueError as e:
-            # CORREÇÃO: Passe user_service aqui
+           
             return template(
                 'user/form.tpl',
                 user=None,
                 error=str(e),
                 action='/users/add',
-                user_service=user_service # Adicionado
+                user_service=user_service 
             )
-    # CORREÇÃO: Passe user_service aqui
+    
     return template(
         'user/form.tpl',
         user=None,
         action='/users/add',
-        user_service=user_service # Adicionado
+        user_service=user_service 
     )
 
 @user_app.route('/edit/<user_id:int>', method=['GET', 'POST'])
@@ -61,20 +60,20 @@ def edit_user(user_id):
             )
             return redirect('/users')
         except ValueError as e:
-            # CORREÇÃO: Passe user_service aqui
+            
             return template(
                 'user/form.tpl',
                 user=user,
                 error=str(e),
                 action=f'/users/edit/{user_id}',
-                user_service=user_service # Adicionado
+                user_service=user_service 
             )
-    # CORREÇÃO: Passe user_service aqui
+    
     return template(
         'user/form.tpl',
         user=user,
         action=f'/users/edit/{user_id}',
-        user_service=user_service # Adicionado
+        user_service=user_service 
     )
 
 @user_app.route('/delete/<user_id:int>', method='POST')
@@ -96,10 +95,8 @@ def login():
             response.set_cookie('user_id', str(user['id']), path='/')
             return redirect('/campeonato')
         
-        # CORREÇÃO: Passe user_service aqui
         return template('auth/login.tpl', error='Email ou senha inválidos', user_service=user_service)
     
-    # CORREÇÃO: Passe user_service aqui
     return template('auth/login.tpl', error=None, user_service=user_service)
 
 @auth_app.route('/register', method=['GET', 'POST'])
@@ -113,10 +110,9 @@ def register():
             )
             return redirect('/auth/login')
         except ValueError as e:
-            # CORREÇÃO: Passe user_service aqui
+            
             return template('auth/register.tpl', error=str(e), user_service=user_service)
     
-    # CORREÇÃO: Passe user_service aqui
     return template('auth/register.tpl', error=None, user_service=user_service)
 
 @auth_app.route('/logout')
@@ -129,9 +125,9 @@ def logout():
 @user_service.login_required
 def protected_route():
     current_user = user_service.get_current_user()
-    # CORREÇÃO: Passe user_service aqui
+    
     return template(
         'protected.tpl',
         message=f'Área protegida - Bem-vindo, {current_user["name"]}!',
-        user_service=user_service # Adicionado
+        user_service=user_service 
     )

@@ -1,7 +1,7 @@
 import json
 import os
 
-class User: # Esta classe não está sendo usada diretamente, mas a manteve para o caso de uso futuro.
+class User:
     def __init__(self, id, name, email, password):
         self.id = id
         self.name = name
@@ -29,6 +29,7 @@ class UserModel:
         with open(self.FILE_PATH, 'w') as f:
             json.dump(self.users, f, indent=4)
     
+    #getters
     def get_all(self):
         return self.users
     

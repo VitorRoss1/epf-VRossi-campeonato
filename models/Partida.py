@@ -11,25 +11,22 @@ class Partida:
         self.casa_placar = casa_gols
         self.fora_placar = fora_gols
         
-        # CORREÇÃO DEFINITIVA: Lógica de atualização de estatísticas (sem inversão)
-        # Atualiza estatísticas para o time da CASA
-        self.casa.stats["gols_pro"] += casa_gols
-        self.casa.stats["gols_contra"] += fora_gols
+        self.casa._stats["gols_pro"] += casa_gols
+        self.casa._stats["gols_contra"] += fora_gols
 
-        # Atualiza estatísticas para o time de FORA
-        self.fora.stats["gols_pro"] += fora_gols
-        self.fora.stats["gols_contra"] += casa_gols
+        self.fora._stats["gols_pro"] += fora_gols
+        self.fora._stats["gols_contra"] += casa_gols
 
-        if casa_gols > fora_gols: # Casa VENCE
-            self.casa.stats["vitorias"] += 1
-            self.casa.stats["Pontos"] += 3
-            self.fora.stats["derrotas"] += 1
-        elif fora_gols > casa_gols: # Fora VENCE
-            self.fora.stats["vitorias"] += 1
-            self.fora.stats["Pontos"] += 3
-            self.casa.stats["derrotas"] += 1
-        else: # Empate
-            self.casa.stats["empates"] += 1
-            self.fora.stats["empates"] += 1
-            self.casa.stats["Pontos"] += 1
-            self.fora.stats["Pontos"] += 1
+        if casa_gols > fora_gols: #Casa VENCE
+            self.casa._stats["vitorias"] += 1
+            self.casa._stats["Pontos"] += 3
+            self.fora._stats["derrotas"] += 1
+        elif fora_gols > casa_gols: #Fora VENCE
+            self.fora._stats["vitorias"] += 1
+            self.fora._stats["Pontos"] += 3
+            self.casa._stats["derrotas"] += 1
+        else: #Empate
+            self.casa._stats["empates"] += 1
+            self.fora._stats["empates"] += 1
+            self.casa._stats["Pontos"] += 1
+            self.fora._stats["Pontos"] += 1

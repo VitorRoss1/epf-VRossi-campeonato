@@ -13,7 +13,7 @@ class JogadorLinha(Jogador):  #herança de Jogador
 class JogadorGoleiro(Jogador):
     def __init__(self, id, nome, numero, id_time):
         super().__init__(id, nome, numero, id_time)
-        self.posicao = "Goleiro"
+        self.posicao = "Goleiro" #OVERRIDE POLIMORFISMO
 
 
 

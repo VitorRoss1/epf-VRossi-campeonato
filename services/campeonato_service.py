@@ -6,7 +6,8 @@ from models.partida import Partida
 
 class CampeonatoService:
     def __init__(self):
-        # Carrega os times, mas suas stats serão zeradas e recalculadas.
+        #método q encapsula o processo completo de carregar e recalcular dados.
+        # É chamado na inicialização do service e após cada salvamento de placar.
         self.times = self._load_times()
         self._times_by_id = {time.id: time for time in self.times}
 
@@ -30,7 +31,7 @@ class CampeonatoService:
                         "vitorias": 0,
                         "derrotas": 0,
                         "empates": 0,
-                        "gols_pro": 0,
+                        "gols_pro": 0,  
                         "gols_contra": 0,
                         "Pontos": 0
                     }
@@ -39,7 +40,7 @@ class CampeonatoService:
                         nome=data['nome'],
                         sigla=data['sigla'],
                         img_path=data['img_path'],
-                        stats=initial_stats # GARANTE que as stats começam zeradas ao carregar
+                        stats=initial_stats #zeradas
                     )
                     
                     for jogador_data in data.get('jogadores', []):
@@ -102,7 +103,7 @@ class CampeonatoService:
     def _apply_saved_placares(self):
         # Garante que as estatísticas dos times estejam zeradas antes de recalculá-las
         for time in self.times:
-            time.stats = {
+            time._stats = {
                 "vitorias": 0,
                 "derrotas": 0,
                 "empates": 0,
@@ -147,7 +148,7 @@ class CampeonatoService:
                 "nome": time.nome,
                 "sigla": time.sigla,
                 "img_path": time.img_path,
-                "stats": time.stats, # Salva as stats acumuladas
+                "stats": time._stats, # Salva as stats acumuladas
                 "jogadores": [] 
             }
             for jogador in time.getJogadores:
@@ -168,7 +169,7 @@ class CampeonatoService:
         # Retorna os times ordenados pela pontuação, vitórias, saldo de gols e gols pro
         return sorted(
             self.times,
-            key=lambda t: (t.stats["Pontos"], t.stats["vitorias"], t.Saldo_Gols(), t.stats["gols_pro"]),
+            key=lambda t: (t._stats["Pontos"], t._stats["vitorias"], t.Saldo_Gols(), t._stats["gols_pro"]),
             reverse=True
         )
 

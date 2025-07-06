@@ -9,12 +9,12 @@
             {{time.nome}}
         </a>
     </td>
-    <td class="fw-bold">{{time.stats["Pontos"]}}</td>
-    <td>{{time.stats["vitorias"]}}</td>
-    <td>{{time.stats["empates"]}}</td>
-    <td>{{time.stats["derrotas"]}}</td>
-    <td>{{time.stats["gols_pro"]}}</td>
-    <td>{{time.stats["gols_contra"]}}</td>
+    <td class="fw-bold">{{time._stats["Pontos"]}}</td>
+    <td>{{time._stats["vitorias"]}}</td>
+    <td>{{time._stats["empates"]}}</td>
+    <td>{{time._stats["derrotas"]}}</td>
+    <td>{{time._stats["gols_pro"]}}</td>
+    <td>{{time._stats["gols_contra"]}}</td>
     <td class="{{'text-success' if time.Saldo_Gols() > 0 else 'text-danger' if time.Saldo_Gols() < 0 else ''}}">
         {{time.Saldo_Gols()}}
     </td>
