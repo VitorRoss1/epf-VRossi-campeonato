@@ -1,12 +1,12 @@
 # Projeto Template: POO com Python + Bottle + JSON CAMPEONATO BRASILEIRO 25
 
-Este é um projeto de template educacional voltado para o ensino de **Programação Orientada a Objetos (POO)** do Prof. Lucas Boaventura, Universidade de Brasília (UnB).
+Este é um projeto de vitor da costa rossi de oliveira baseado no template educacional voltado para o ensino de **Programação Orientada a Objetos (POO)** do Prof. Lucas Boaventura, Universidade de Brasília (UnB).
 
 Utiliza o microframework **Bottle**. Ideal para uso em disciplinas introdutórias de Engenharia de Software ou Ciência da Computação.
 
 ## 💡 Objetivo
 
-Fornecer uma base simples, extensível e didática para construção de aplicações web orientadas a objetos com aplicações WEB em Python, ideal para trabalhos finais ou exercícios práticos.
+Simular o Campeonato Brasileiro de 2025, permitindo que você insira os placares das partidas, veja as estatísticas dos times acumularem , acompanhe a tabela de classificação e acesse os dois craques de cada um dos 20 times (usuários cadastrados).
 
 ---
 
@@ -179,22 +179,10 @@ python3 main.py
 
 4. Accese sua aplicação no navegador em: [http://localhost:8080](http://localhost:8080)
 
----
-
-## ✍️ Personalização
-Para adicionar novos modelos (ex: Atividades):
-
-1. Crie a classe no diretório **models/**.
-
-2. Crie o service correspondente para manipulação do JSON.
-
-3. Crie o controller com as rotas.
-
-4. Crie as views .tpl associadas.
 
 ---
 
 ## 🧠 Autor e Licença
 vítor da costa rossi de oliveira - 242015352
+
 Projeto desenvolvido como template didático para disciplinas de Programação Orientada a Objetos, baseado no [BMVC](https://github.com/hgmachine/bmvc_start_from_this).
-Você pode reutilizar, modificar e compartilhar livremente.
