@@ -1,4 +1,4 @@
-# Projeto Template: POO com Python + Bottle + JSON CAMPEONATO BRASILEIRO 25
+# Projeto FINAL DE POO com Python + Bottle + JSON + BOOTSTRAP: CAMPEONATO BRASILEIRO 25
 
 Este é um projeto de vitor da costa rossi de oliveira baseado no template educacional voltado para o ensino de **Programação Orientada a Objetos (POO)** do Prof. Lucas Boaventura, Universidade de Brasília (UnB).
 
