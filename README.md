@@ -195,24 +195,30 @@ users.json: Guarda os dados dos usuários cadastrados.
 
 ## ▶️ Como Executar
 
-1. Crie o ambiente virtual na pasta fora do seu projeto:
+1. Clone o Repositório:
+```bash
+git clone [https://github.com/VitorRoss1/epf-VRossi-campeonato]
+```
+
+
+2. Crie o ambiente virtual na pasta fora do seu projeto:
 ```bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\\Scripts\\activate     # Windows
 ```
 
-2. Entre dentro do seu projeto criado a partir do template e instale as dependências:
+3. Entre dentro do seu projeto criado a partir do template e instale as dependências:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Rode a aplicação:
+4. Rode a aplicação:
 ```bash
 python3 main.py
 ```
 
-4. Accese sua aplicação no navegador em: [http://localhost:8080](http://localhost:8080)
+5. Accese no navegador em: [http://localhost:8080](http://localhost:8080)
 
 
 ---
@@ -220,4 +226,4 @@ python3 main.py
 ## 🧠 Autor e Licença
 vítor da costa rossi de oliveira - 242015352
 
-Projeto desenvolvido como template didático para disciplinas de Programação Orientada a Objetos, baseado no [BMVC](https://github.com/hgmachine/bmvc_start_from_this).
+Projeto desenvolvido para disciplinas de Programação Orientada a Objetos, baseado no [BMVC](https://github.com/hgmachine/bmvc_start_from_this).
